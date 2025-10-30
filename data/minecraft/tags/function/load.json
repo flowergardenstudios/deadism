@@ -4,6 +4,7 @@
 		"pathway:load",
 		"astar:load",
 		"tl:init",
-		"lsp:init"
+		"lsp:init",
+		"iris:setup/load"
 	]
 }
