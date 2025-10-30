@@ -1,5 +1,9 @@
 {
 	"values": [
-	"deadism:global/load"
+		"deadism:global/load",
+		"pathway:load",
+		"astar:load",
+		"tl:init",
+		"lsp:init"
 	]
 }

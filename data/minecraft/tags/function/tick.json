@@ -1,5 +1,8 @@
 {
 	"values": [
-	"deadism:global/tick"
+		"deadism:global/tick",
+		"pathway:tick",
+		"tl:loop",
+        "lsp:loop"
 	]
 }
