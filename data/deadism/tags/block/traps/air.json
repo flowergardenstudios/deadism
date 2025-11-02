@@ -1,0 +1,14 @@
+{
+    "values": [
+        "#air",
+        "tall_grass",
+        "short_grass",
+        "large_fern",
+        "fern",
+        "#flowers",
+        "#fences",
+        "#slabs",
+        "#walls",
+        "iron_bars"
+    ]
+}

@@ -1,0 +1,26 @@
+{
+    "condition": "minecraft:value_check",
+    "value": {
+        "type": "minecraft:score",
+        "target": "this",
+        "score": "deadism.rope.ID"
+    },
+    "range": {
+        "min": {
+            "type": "minecraft:score",
+            "target": {
+                "type": "minecraft:fixed",
+                "name": "#ID"
+            },
+            "score": "deadism.rope.ID"
+        },
+        "max": {
+            "type": "minecraft:score",
+            "target": {
+                "type": "minecraft:fixed",
+                "name": "#ID"
+            },
+            "score": "deadism.rope.ID"
+        }
+    }
+}
