@@ -15,5 +15,6 @@ scoreboard objectives add deadism.turret.FireRate.timer dummy
 # // Trap: Rope
 scoreboard objectives add deadism.rope.ID dummy
 scoreboard players add .global deadism.rope.ID 1
-scoreboard objectives add deadism.rope.RAYCAST dummy
+# deadism.rope.STATE -> 0: slacked, 1: tight/enabled
+scoreboard objectives add deadism.rope.STATE dummy
 
