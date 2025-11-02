@@ -1,0 +1,29 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:allay_spawn_egg",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:item_model": "minecraft:lead",
+                                "minecraft:entity_data": {
+                                    "id": "minecraft:marker",
+                                    "Tags": [
+                                        "deadism.rope.spawnMarker",
+                                        "deadism.rope"
+                                    ]
+                                },
+                                "minecraft:item_name": "Strong Rope"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

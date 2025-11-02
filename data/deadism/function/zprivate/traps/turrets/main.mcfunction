@@ -8,6 +8,3 @@ execute as @e[tag=deadism.turret.Head,type=item_display] at @s run function dead
 
 #> Fire Rate:
 execute as @e[tag=deadism.turret.Head,type=item_display] at @s run function deadism:zprivate/traps/turrets/fire_rate
-
-#> Reset Place Score
-scoreboard players reset @a deadism.player.trap.place
