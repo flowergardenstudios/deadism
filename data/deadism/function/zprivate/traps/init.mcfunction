@@ -5,12 +5,12 @@ scoreboard objectives add deadism.player.trap.place minecraft.used:minecraft.all
 # // Globals:
     # // STATE: STATE of the Trap; 0 -> Inactive, 1 -> Active, 2 -> Tripped/Triggered
     scoreboard objectives add deadism.trap.STATE dummy
-    # // OUTPUT: Type of Entity detected by the Trap: 0 -> Friendly, 1 -> Hostiles
+    # // OUTPUT: Type of Entity detected by the Trap: 0 -> No Output, 1 -> Friendly, 2 -> Hostiles
     scoreboard objectives add deadism.trap.OUTPUT dummy
     # // AGE: Age of the Trap in Ticks since last placed.
     scoreboard objectives add deadism.trap.AGE dummy
     # // DURABILITY: Number of times the Trap can work before it breaks down.
-    scoreboard objectives add deadism.trap.durability dummy
+    scoreboard objectives add deadism.trap.DURABILITY dummy
 
 # // Trap: Turret
 scoreboard objectives add deadism.turret.Values dummy
@@ -25,4 +25,7 @@ scoreboard objectives add deadism.turret.FireRate.timer dummy
 scoreboard objectives add deadism.rope.ID dummy
 scoreboard players add .global deadism.rope.ID 1
 scoreboard objectives add deadism.rope.RAYCAST dummy
+
+# Scheduled Tick Files
+function deadism:zprivate/traps/rope/loop
 
