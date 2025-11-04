@@ -8,3 +8,4 @@ tellraw @a { "color": "#FFE2DB", "bold":true,"text": "[DeadiSM] Loaded."}
 
 
 function deadism:zprivate/traps/init
+function deadism:zprivate/mechanics/init
