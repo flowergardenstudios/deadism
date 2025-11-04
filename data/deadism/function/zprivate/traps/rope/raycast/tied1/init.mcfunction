@@ -3,6 +3,7 @@ execute as @s[tag=!deadism.rope.ConnectToKnot2] facing entity @p[tag=deadism.Con
 execute as @s[tag=deadism.rope.ConnectToKnot2] facing entity @n[tag=deadism.rope.Knot2,predicate=deadism:id/traps/rope/main] feet run rotate @s ~ ~-5
 
 scoreboard players set @s deadism.trap.STATE 1
+scoreboard players set @s deadism.trap.STATE.old 1
 scoreboard players set @s deadism.trap.OUTPUT 0
 
 scoreboard players set @s deadism.rope.RAYCAST 0

@@ -5,6 +5,8 @@ scoreboard objectives add deadism.player.trap.place minecraft.used:minecraft.all
 # // Globals:
     # // STATE: STATE of the Trap; 0 -> Inactive, 1 -> Active, 2 -> Tripped/Triggered
     scoreboard objectives add deadism.trap.STATE dummy
+    scoreboard objectives add deadism.trap.STATE.old dummy
+
     # // OUTPUT: Type of Entity detected by the Trap: 0 -> No Output, 1 -> Friendly, 2 -> Hostiles
     scoreboard objectives add deadism.trap.OUTPUT dummy
     # // AGE: Age of the Trap in Ticks since last placed.
