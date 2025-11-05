@@ -1,4 +1,4 @@
-particle dust{color:[1.000,0.533,0.000],scale:0.5} ~ ~ ~ 0 0 0 0 0 normal
+#particle dust{color:[1.000,0.533,0.000],scale:0.5} ~ ~ ~ 0 0 0 0 0 normal
 
 
 execute positioned ~ ~-1 ~ if block ~ ~ ~ #air if entity @n[type=#deadism:friendly,dx=0] run return run function deadism:zprivate/traps/turrets/raycast/blocked

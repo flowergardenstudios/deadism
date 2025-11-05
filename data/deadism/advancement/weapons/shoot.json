@@ -1,0 +1,19 @@
+{
+    "criteria": {
+        "": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+                "item": {
+                    "predicates": {
+                        "minecraft:custom_data": {
+                            "deadism.weapon": true
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "deadism:zprivate/weapons/shoot"
+    }
+}

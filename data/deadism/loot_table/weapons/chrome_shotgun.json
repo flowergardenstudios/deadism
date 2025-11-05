@@ -1,0 +1,42 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:poisonous_potato",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:item_name": {
+                                    "translate": "deadism.weapons.shotgun.chrome_shotgun",
+                                    "fallback": "CHROME SHOTGUN"
+                                },
+                                "minecraft:food": {
+                                    "nutrition": 0,
+                                    "saturation": 0,
+                                    "can_always_eat": true
+                                },
+                                "minecraft:consumable": {
+                                    "consume_seconds": 99999
+                                },
+                                "minecraft:custom_model_data": {
+                                    "strings": [
+                                        "deadism.weapons.shotgun.chrome_shotgun"
+                                    ]
+                                },
+                                "minecraft:custom_data": {
+                                    "deadism.weapon": true,
+                                    "deadism.weapon.ID": 1
+                                }
+                            },
+                            "conditions": []
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
