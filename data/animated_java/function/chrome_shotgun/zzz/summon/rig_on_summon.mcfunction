@@ -2,5 +2,7 @@
 tag @s add deadism.weapon.chrome_shotgun
 tag @s add deadism.weapon
 tag @s add deadism.weapon.NEW
-execute on vehicle run data modify entity @s view_range set value 0.05f
+data modify entity @s view_range set value 0.05f
+data modify entity @s teleport_duration set value 0
+data modify entity @s interpolation_duration set value 1
 function animated_java:chrome_shotgun/animations/equip/play

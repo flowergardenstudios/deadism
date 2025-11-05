@@ -8,6 +8,22 @@
                     "name": "minecraft:poisonous_potato",
                     "functions": [
                         {
+                            "function": "minecraft:set_custom_data",
+                            "tag": {
+                                "deadism.weapon": true,
+                                "deadism.weapon.ID": 1
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_custom_model_data",
+                            "strings": {
+                                "values": [
+                                    "deadism.weapons.shotgun.chrome_shotgun"
+                                ],
+                                "mode": "append"
+                            }
+                        },
+                        {
                             "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:item_name": {
@@ -21,15 +37,6 @@
                                 },
                                 "minecraft:consumable": {
                                     "consume_seconds": 99999
-                                },
-                                "minecraft:custom_model_data": {
-                                    "strings": [
-                                        "deadism.weapons.shotgun.chrome_shotgun"
-                                    ]
-                                },
-                                "minecraft:custom_data": {
-                                    "deadism.weapon": true,
-                                    "deadism.weapon.ID": 1
                                 }
                             },
                             "conditions": []

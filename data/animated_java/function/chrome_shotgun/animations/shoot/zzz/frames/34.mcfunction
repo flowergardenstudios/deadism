@@ -6,4 +6,5 @@ $data merge entity $(bone_trigger) {transformation: [-0.9962f,0.0872f,0f,-0.2491
 $data merge entity $(bone_trigger_part) {transformation: [-0.9962f,0.0872f,0f,-0.2506f,0.0872f,0.9962f,0f,-0.6817f,0f,0f,-1f,0.5625f,0f,0f,0f,1f],start_interpolation: 0,interpolation_duration: 1}
 $data merge entity $(bone_chrome_shotgun) {transformation: [-1.0204f,0.0893f,0f,-0.2124f,0.0893f,1.0204f,0f,-0.6034f,0f,0f,-1.0243f,0.5937f,0f,0f,0f,1f],start_interpolation: 0,interpolation_duration: 1}
 $data merge entity $(bone_right_arm) {transformation: [-0.9877f,-0.13f,-0.0872f,-0.4046f,0.0864f,0.0114f,-0.9962f,-0.6494f,0.1305f,-0.9914f,0f,-0.2187f,0f,0f,0f,1f],start_interpolation: 0,interpolation_duration: 1}
-$data merge entity $(bone_left_arm) {transformation: [-0.8097f,0.5039f,-0.3008f,0.1869f,0.3715f,0.0434f,-0.9274f,-0.7011f,-0.4542f,-0.8627f,-0.2223f,1f,0f,0f,0f,1f],start_interpolation: 0,interpolation_duration: 1}
+$data merge entity $(bone_left_arm) {transformation: [-0.8266f,0.5143f,-0.3071f,0.1869f,0.3793f,0.0443f,-0.9467f,-0.7011f,-0.4637f,-0.8807f,-0.227f,1f,0f,0f,0f,1f],start_interpolation: 0,interpolation_duration: 1}
+execute on vehicle unless entity @s[tag=aj.transforms_only] at @s run function animated_java:chrome_shotgun/animations/shoot/zzz/frames/34_root_function
