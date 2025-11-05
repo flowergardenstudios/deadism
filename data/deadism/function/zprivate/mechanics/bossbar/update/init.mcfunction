@@ -3,4 +3,6 @@ execute store result storage deadism:storage TEMP.MACRO.PLAYER.ID int 1 run scor
 function deadism:zprivate/mechanics/fatigue/display/init
 data modify storage deadism:storage TEMP.MACRO.PLAYER.BOSSBAR.STRING append value ", "
 function deadism:zprivate/mechanics/infection/display/init
+data modify storage deadism:storage TEMP.MACRO.PLAYER.BOSSBAR.STRING append value ", "
+function lsp:staminabar
 function deadism:zprivate/mechanics/bossbar/update/macro with storage deadism:storage TEMP.MACRO.PLAYER
