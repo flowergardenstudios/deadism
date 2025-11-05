@@ -1,10 +1,4 @@
 {
-	"values": [
-		"deadism:global/load",
-		"pathway:load",
-		"astar:load",
-		"tl:init",
-		"lsp:init",
-		"iris:setup/load"
-	]
+	"replace": false,
+	"values": ["animated_java:global/on_load", "astar:load", "deadism:global/load", "iris:setup/load", "lsp:init", "pathway:load", "tl:init"]
 }

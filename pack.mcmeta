@@ -1,6 +1,10 @@
 {
-    "pack": {
-        "pack_format": 81,
-        "description": "DeadiSM: Survive the Apocalypse by making Traps, Contraptions and Using your Brain!"
-    }
+	"pack": {
+		"pack_format": 80,
+		"description": "DeadiSM: Survive the Apocalypse by making Traps, Contraptions and Using your Brain!",
+		"supported_formats": {
+			"min_inclusive": 80,
+			"max_inclusive": 87
+		}
+	}
 }
