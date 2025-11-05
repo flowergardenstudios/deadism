@@ -18,7 +18,10 @@
                                         "deadism.rope"
                                     ]
                                 },
-                                "minecraft:item_name": "Strong Rope"
+                                "minecraft:item_name": {
+                                    "translate": "deadism.traps.rope",
+                                    "fallback": "STRONG ROPE"
+                                }
                             }
                         }
                     ]
