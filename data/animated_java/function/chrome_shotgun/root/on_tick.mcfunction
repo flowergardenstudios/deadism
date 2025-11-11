@@ -3,5 +3,8 @@ execute unless entity @s[tag=aj.chrome_shotgun.root] run return 0
 execute if entity @s[tag=aj.chrome_shotgun.animation.equip.playing] run function animated_java:chrome_shotgun/animations/equip/zzz/on_tick
 execute if entity @s[tag=aj.chrome_shotgun.animation.shoot.playing] run function animated_java:chrome_shotgun/animations/shoot/zzz/on_tick
 execute if entity @s[tag=aj.chrome_shotgun.animation.load_start.playing] run function animated_java:chrome_shotgun/animations/load_start/zzz/on_tick
-execute if entity @s[tag=aj.chrome_shotgun.animation.new.playing] run function animated_java:chrome_shotgun/animations/new/zzz/on_tick
+execute if entity @s[tag=aj.chrome_shotgun.animation.reload_start.playing] run function animated_java:chrome_shotgun/animations/reload_start/zzz/on_tick
+execute if entity @s[tag=aj.chrome_shotgun.animation.reload_load1.playing] run function animated_java:chrome_shotgun/animations/reload_load1/zzz/on_tick
+execute if entity @s[tag=aj.chrome_shotgun.animation.reload_end.playing] run function animated_java:chrome_shotgun/animations/reload_end/zzz/on_tick
+execute on passengers if entity @s[tag=aj.global.data] run function animated_java:chrome_shotgun/root/on_tick/transform_floating_entities
 execute on passengers run rotate @s ~ ~

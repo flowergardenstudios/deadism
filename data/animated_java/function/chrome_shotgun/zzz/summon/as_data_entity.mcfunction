@@ -9,9 +9,9 @@ data modify entity @s data.uuids_by_name.bone_shotgun_shell set from storage ani
 execute on vehicle on passengers if entity @s[tag=aj.chrome_shotgun.node.clock] run function animated_java:global/gu/get_entity_uuid_string
 data modify entity @s data.uuids append from storage animated_java:gu out
 data modify entity @s data.uuids_by_name.bone_clock set from storage animated_java:gu out
-execute on vehicle on passengers if entity @s[tag=aj.chrome_shotgun.node.barrel] run function animated_java:global/gu/get_entity_uuid_string
+execute on vehicle on passengers if entity @s[tag=aj.chrome_shotgun.node.barrel1] run function animated_java:global/gu/get_entity_uuid_string
 data modify entity @s data.uuids append from storage animated_java:gu out
-data modify entity @s data.uuids_by_name.bone_barrel set from storage animated_java:gu out
+data modify entity @s data.uuids_by_name.bone_barrel1 set from storage animated_java:gu out
 execute on vehicle on passengers if entity @s[tag=aj.chrome_shotgun.node.trigger] run function animated_java:global/gu/get_entity_uuid_string
 data modify entity @s data.uuids append from storage animated_java:gu out
 data modify entity @s data.uuids_by_name.bone_trigger set from storage animated_java:gu out
@@ -21,6 +21,9 @@ data modify entity @s data.uuids_by_name.bone_trigger_part set from storage anim
 execute on vehicle on passengers if entity @s[tag=aj.chrome_shotgun.node.chrome_shotgun] run function animated_java:global/gu/get_entity_uuid_string
 data modify entity @s data.uuids append from storage animated_java:gu out
 data modify entity @s data.uuids_by_name.bone_chrome_shotgun set from storage animated_java:gu out
+execute on vehicle on passengers if entity @s[tag=aj.chrome_shotgun.node.shotgun_shell1] run function animated_java:global/gu/get_entity_uuid_string
+data modify entity @s data.uuids append from storage animated_java:gu out
+data modify entity @s data.uuids_by_name.bone_shotgun_shell1 set from storage animated_java:gu out
 execute on vehicle on passengers if entity @s[tag=aj.chrome_shotgun.node.right_arm] run function animated_java:global/gu/get_entity_uuid_string
 data modify entity @s data.uuids append from storage animated_java:gu out
 data modify entity @s data.uuids_by_name.bone_right_arm set from storage animated_java:gu out

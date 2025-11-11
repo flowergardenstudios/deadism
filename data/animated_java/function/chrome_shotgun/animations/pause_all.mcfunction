@@ -3,4 +3,6 @@ execute unless entity @s[type=minecraft:item_display,tag=aj.chrome_shotgun.root]
 tag @s remove aj.chrome_shotgun.animation.equip.playing
 tag @s remove aj.chrome_shotgun.animation.shoot.playing
 tag @s remove aj.chrome_shotgun.animation.load_start.playing
-tag @s remove aj.chrome_shotgun.animation.new.playing
+tag @s remove aj.chrome_shotgun.animation.reload_start.playing
+tag @s remove aj.chrome_shotgun.animation.reload_load1.playing
+tag @s remove aj.chrome_shotgun.animation.reload_end.playing

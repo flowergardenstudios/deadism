@@ -11,7 +11,8 @@
                             "function": "minecraft:set_custom_data",
                             "tag": {
                                 "deadism.weapon": true,
-                                "deadism.weapon.ID": 1
+                                "deadism.weapon.ID": 1,
+                                "deadism.ammo":{"in_gun": 6, "reloadable_amount": 30}
                             }
                         },
                         {
