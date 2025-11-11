@@ -2,3 +2,4 @@
 tag @p add deadism.weapon.cooldown
 tag @p remove deadism.weapon.reloading
 tag @p remove deadism.weapon.recoil.fixRotation
+playsound deadism:sfx.weapons.chrome_shotgun.shoot master @a ~ ~ ~ 1 1

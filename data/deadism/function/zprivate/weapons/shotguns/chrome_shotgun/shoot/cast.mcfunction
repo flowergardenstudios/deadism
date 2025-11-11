@@ -1,4 +1,3 @@
-particle ash
 scoreboard players remove @s deadism.weapon.AMMO.RAYCAST 1
 
 tag @s add bullet.owner
