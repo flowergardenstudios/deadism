@@ -1,0 +1,1 @@
+$execute positioned $(deathX) $(deathY) $(deathZ) positioned ~ ~0.5 ~ positioned ~$(x) ~$(y) ~$(z) rotated $(rot_x) $(rot_y) run function gib:zprivate/summon/gib {block:{id:"minecraft:player_head"}, "scale": $(scale), "velocity": 0.4}

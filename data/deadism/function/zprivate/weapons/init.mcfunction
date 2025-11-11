@@ -1,7 +1,10 @@
 # // Scoreboards
 scoreboard objectives add deadism.weapon.AMMO dummy
+scoreboard players set ChromeShotgunRange deadism.weapon.AMMO 100
 scoreboard players set ChromeShotgunAmmo deadism.weapon.AMMO 6
 scoreboard players set ChromeShotgunAmmoMax deadism.weapon.AMMO 30
+
+scoreboard objectives add deadism.weapon.AMMO.RAYCAST dummy
 
 
 scoreboard objectives add deadism.weapon.ID dummy
