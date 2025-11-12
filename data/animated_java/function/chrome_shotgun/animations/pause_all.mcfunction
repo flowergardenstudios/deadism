@@ -2,7 +2,6 @@
 execute unless entity @s[type=minecraft:item_display,tag=aj.chrome_shotgun.root] run return run tellraw @a [{color:'red',text:''},{color:'gray',text:'\n '},{color:'#00aced',text:'ᴀɴɪᴍᴀᴛᴇᴅ ᴊᴀᴠᴀ'},{color:'dark_gray',italic:true,text:'\n (animated_java:chrome_shotgun)'},'\n → ᴇʀʀᴏʀ: ',{color:'red',underlined:true,text:'Function Not Executed as Root Entity'},'\n\n ',{color:'yellow',text:'[This Function]',hover_event:{action:show_text,value:[{color:'yellow',text:'animated_java:chrome_shotgun/animations/pause_all'}]}}," must be executed as the rig's root entity.",{color:'white',text:'\n\n ≡ '},{color:'aqua',underlined:true,text:'ꜱʜᴏᴡ ᴇxᴀᴍᴘʟᴇ ᴄᴏᴍᴍᴀɴᴅ',click_event:{action:suggest_command,command:'/execute as @e[tag=aj.chrome_shotgun.root] run function animated_java:chrome_shotgun/animations/pause_all'}},'\n\n ',{color:'blue',italic:true,underlined:true,text:'▶ Learn More ◀',click_event:{action:open_url,url:'https://animated-java.dev/docs/rigs/controlling-a-rig-instance'}},'\n']
 tag @s remove aj.chrome_shotgun.animation.equip.playing
 tag @s remove aj.chrome_shotgun.animation.shoot.playing
-tag @s remove aj.chrome_shotgun.animation.load_start.playing
 tag @s remove aj.chrome_shotgun.animation.reload_start.playing
 tag @s remove aj.chrome_shotgun.animation.reload_load1.playing
 tag @s remove aj.chrome_shotgun.animation.reload_end.playing

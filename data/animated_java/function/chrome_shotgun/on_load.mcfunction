@@ -2,7 +2,6 @@
 data modify storage animated_java:chrome_shotgun rig_hash set value '4ebeede1caa3d59924f01b09b5c64f35ae9c0de7cf834bbf0b55072dce6ef437'
 scoreboard objectives add aj.equip.frame dummy
 scoreboard objectives add aj.shoot.frame dummy
-scoreboard objectives add aj.load_start.frame dummy
 scoreboard objectives add aj.reload_start.frame dummy
 scoreboard objectives add aj.reload_load1.frame dummy
 scoreboard objectives add aj.reload_end.frame dummy
