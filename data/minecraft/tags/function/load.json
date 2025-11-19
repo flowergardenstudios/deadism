@@ -2,12 +2,9 @@
 	"replace": false,
 	"values": [
 		"animated_java:global/on_load",
-		"astar:load",
 		"deadism:global/load",
 		"gib:global/load",
-		"iris:setup/load",
 		"lsp:init",
-		"pathway:load",
 		"tl:init"
 	]
 }

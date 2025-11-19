@@ -1,1 +1,0 @@
-execute at @e[type=marker,tag=pathway.path] run particle electric_spark
