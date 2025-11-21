@@ -290,7 +290,6 @@
 				"data/animated_java/function/chrome_shotgun/animations/reload_load1/zzz/frames/7.mcfunction",
 				"data/animated_java/function/chrome_shotgun/animations/reload_load1/zzz/frames/8.mcfunction",
 				"data/animated_java/function/chrome_shotgun/animations/reload_load1/zzz/frames/9.mcfunction",
-				"data/animated_java/function/chrome_shotgun/animations/reload_load1/zzz/function_keyframe_loop_patch.mcfunction",
 				"data/animated_java/function/chrome_shotgun/animations/reload_load1/zzz/on_tick.mcfunction",
 				"data/animated_java/function/chrome_shotgun/animations/reload_load1/zzz/set_frame.mcfunction",
 				"data/animated_java/function/chrome_shotgun/animations/reload_start/apply_frame.mcfunction",

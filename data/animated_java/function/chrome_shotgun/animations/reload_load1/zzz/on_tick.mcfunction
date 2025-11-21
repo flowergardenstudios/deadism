@@ -2,9 +2,8 @@
 scoreboard players remove @s aj.tween_duration 1
 execute if score @s aj.tween_duration matches 1.. run return 1
 execute if score @s aj.tween_duration matches 0 on passengers run data modify entity @s interpolation_duration set value 1
-execute if score @s aj.reload_load1.frame matches -1 run function animated_java:chrome_shotgun/animations/reload_load1/zzz/function_keyframe_loop_patch
 data remove storage animated_java:temp args
 execute store result storage animated_java:temp args.frame int 1 run scoreboard players get @s aj.reload_load1.frame
 function animated_java:chrome_shotgun/animations/reload_load1/zzz/apply_frame with storage animated_java:temp args
-execute if score @s aj.reload_load1.frame matches 9.. run return run scoreboard players set @s aj.reload_load1.frame -1
+execute if score @s aj.reload_load1.frame matches 10.. run return run function animated_java:chrome_shotgun/animations/reload_load1/pause
 scoreboard players add @s aj.reload_load1.frame 1
