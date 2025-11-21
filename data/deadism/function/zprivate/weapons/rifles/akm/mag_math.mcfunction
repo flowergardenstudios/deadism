@@ -8,7 +8,7 @@ execute if score @s deadism.weapon.AMMO.RELOADABLE_AMOUNT >= AKMAmmo deadism.wea
 execute if score @s deadism.weapon.AMMO.RELOADABLE_AMOUNT < AKMAmmo deadism.weapon.AMMO run scoreboard players operation @s deadism.weapon.AMMO.IN_GUN += @s deadism.weapon.AMMO.RELOADABLE_AMOUNT
 
 # // If reloadable amount is less than max possible ammo in a magazine, dump all magazine into the gun aka set reserve to zero.
-execute if score @s deadism.weapon.AMMO.RELOADABLE_AMOUNT < AKMAmmo deadism.weapon.AMMO.RELOADABLE_AMOUNT run scoreboard players set @s deadism.weapon.AMMO.RELOADABLE_AMOUNT 0
+execute if score @s deadism.weapon.AMMO.RELOADABLE_AMOUNT < AKMAmmo deadism.weapon.AMMO run scoreboard players set @s deadism.weapon.AMMO.RELOADABLE_AMOUNT 0
 # // If reloadable amount is greater than or equal to Max possible ammo, subtract AKMAmmo.
 execute if score @s deadism.weapon.AMMO.RELOADABLE_AMOUNT >= AKMAmmo deadism.weapon.AMMO run scoreboard players operation @s deadism.weapon.AMMO.RELOADABLE_AMOUNT -= AKMAmmo deadism.weapon.AMMO
 
