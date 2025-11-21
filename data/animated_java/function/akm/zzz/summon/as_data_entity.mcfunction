@@ -15,6 +15,12 @@ data modify entity @s data.uuids_by_name.bone_akm1 set from storage animated_jav
 execute on vehicle on passengers if entity @s[tag=aj.akm.node.right_arm] run function animated_java:global/gu/get_entity_uuid_string
 data modify entity @s data.uuids append from storage animated_java:gu out
 data modify entity @s data.uuids_by_name.bone_right_arm set from storage animated_java:gu out
-execute on vehicle on passengers if entity @s[tag=aj.akm.node.left_arm] run function animated_java:global/gu/get_entity_uuid_string
+execute on vehicle on passengers if entity @s[tag=aj.akm.node.magazine2] run function animated_java:global/gu/get_entity_uuid_string
 data modify entity @s data.uuids append from storage animated_java:gu out
-data modify entity @s data.uuids_by_name.bone_left_arm set from storage animated_java:gu out
+data modify entity @s data.uuids_by_name.bone_magazine2 set from storage animated_java:gu out
+execute on vehicle on passengers if entity @s[tag=aj.akm.node.forearm] run function animated_java:global/gu/get_entity_uuid_string
+data modify entity @s data.uuids append from storage animated_java:gu out
+data modify entity @s data.uuids_by_name.bone_forearm set from storage animated_java:gu out
+execute on vehicle on passengers if entity @s[tag=aj.akm.node.bicep] run function animated_java:global/gu/get_entity_uuid_string
+data modify entity @s data.uuids append from storage animated_java:gu out
+data modify entity @s data.uuids_by_name.bone_bicep set from storage animated_java:gu out

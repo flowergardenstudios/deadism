@@ -8,4 +8,6 @@ tag @e[tag=deadism.weapon.NEW] remove deadism.weapon.NEW
 execute store result score @s deadism.weapon.AMMO.IN_GUN run data get entity @s SelectedItem.components."minecraft:custom_data"."deadism.ammo".in_gun
 execute store result score @s deadism.weapon.AMMO.RELOADABLE_AMOUNT run data get entity @s SelectedItem.components."minecraft:custom_data"."deadism.ammo".reloadable_amount
 
+title @s actionbar [{"score":{name:"@s", "objective":"deadism.weapon.AMMO.IN_GUN"}}, "/", {"score":{"name":"@s", objective:"deadism.weapon.AMMO.RELOADABLE_AMOUNT"}}]
+
 scoreboard players set @s deadism.weapon.EQUIPPED 2

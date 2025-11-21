@@ -9,6 +9,5 @@ execute anchored eyes rotated ~1 ~1 positioned ^ ^ ^0.1 run function deadism:zpr
 execute anchored eyes rotated ~ ~-1 positioned ^ ^ ^0.1 run function deadism:zprivate/weapons/shotguns/chrome_shotgun/shoot/init
 execute anchored eyes rotated ~-1 ~-1 positioned ^ ^ ^0.1 run function deadism:zprivate/weapons/shotguns/chrome_shotgun/shoot/init
 
-
 execute as @n[tag=deadism.weapon,predicate=deadism:id/weapons/id] run function animated_java:chrome_shotgun/animations/shoot/play
 

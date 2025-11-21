@@ -4,4 +4,5 @@ scoreboard players remove @s deadism.weapon.AMMO.IN_GUN 1
 #function deadism:zprivate/weapons/ammo/init
 
 execute as @n[tag=deadism.weapon,predicate=deadism:id/weapons/id] run function animated_java:akm/animations/shoot/play
+title @s actionbar [{"score":{name:"@s", "objective":"deadism.weapon.AMMO.IN_GUN"}}, "/", {"score":{"name":"@s", objective:"deadism.weapon.AMMO.RELOADABLE_AMOUNT"}}]
 
