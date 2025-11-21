@@ -9,6 +9,7 @@
         "#fences",
         "#slabs",
         "#walls",
-        "iron_bars"
+        "iron_bars",
+        "#buttons"
     ]
 }

@@ -27,9 +27,11 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_name": {
+                                "minecraft:custom_name": {
                                     "translate": "deadism.weapons.shotgun.chrome_shotgun",
-                                    "fallback": "CHROME SHOTGUN"
+                                    "fallback": "CHROME SHOTGUN",
+                                    "italic":false,
+                                    "font": "deadism:f25bankprinter"
                                 },
                                 "minecraft:food": {
                                     "nutrition": 0,

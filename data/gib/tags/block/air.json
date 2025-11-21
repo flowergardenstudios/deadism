@@ -3,6 +3,8 @@
         "#air",
         "tall_grass",
         "short_grass",
-        "#flowers"
+        "#flowers",
+        "#buttons", 
+        "#pressure_plates"
     ]
 }

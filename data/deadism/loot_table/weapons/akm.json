@@ -27,9 +27,11 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_name": {
+                                "minecraft:custom_name": {
                                     "translate": "deadism.weapons.rifle.akm",
-                                    "fallback": "AKM"
+                                    "fallback": "AKM",
+                                    "italic":false,
+                                    "font": "deadism:f25bankprinter"
                                 },
                                 "minecraft:food": {
                                     "nutrition": 0,
