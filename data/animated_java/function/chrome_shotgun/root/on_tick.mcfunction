@@ -5,5 +5,7 @@ execute if entity @s[tag=aj.chrome_shotgun.animation.shoot.playing] run function
 execute if entity @s[tag=aj.chrome_shotgun.animation.reload_start.playing] run function animated_java:chrome_shotgun/animations/reload_start/zzz/on_tick
 execute if entity @s[tag=aj.chrome_shotgun.animation.reload_load1.playing] run function animated_java:chrome_shotgun/animations/reload_load1/zzz/on_tick
 execute if entity @s[tag=aj.chrome_shotgun.animation.reload_end.playing] run function animated_java:chrome_shotgun/animations/reload_end/zzz/on_tick
+execute if entity @s[tag=aj.chrome_shotgun.animation.walk.playing] run function animated_java:chrome_shotgun/animations/walk/zzz/on_tick
+execute if entity @s[tag=aj.chrome_shotgun.animation.run.playing] run function animated_java:chrome_shotgun/animations/run/zzz/on_tick
 execute on passengers if entity @s[tag=aj.global.data] run function animated_java:chrome_shotgun/root/on_tick/transform_floating_entities
 execute on passengers run rotate @s ~ ~

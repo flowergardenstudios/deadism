@@ -5,3 +5,5 @@ tag @s remove aj.chrome_shotgun.animation.shoot.playing
 tag @s remove aj.chrome_shotgun.animation.reload_start.playing
 tag @s remove aj.chrome_shotgun.animation.reload_load1.playing
 tag @s remove aj.chrome_shotgun.animation.reload_end.playing
+tag @s remove aj.chrome_shotgun.animation.walk.playing
+tag @s remove aj.chrome_shotgun.animation.run.playing

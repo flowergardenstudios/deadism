@@ -3,3 +3,4 @@ execute unless entity @s[type=minecraft:item_display,tag=aj.akm.root] run return
 tag @s remove aj.akm.animation.equip.playing
 tag @s remove aj.akm.animation.shoot.playing
 tag @s remove aj.akm.animation.reload.playing
+tag @s remove aj.akm.animation.run.playing
