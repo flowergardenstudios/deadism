@@ -13,6 +13,7 @@
         "#buttons",
         "#doors",
         "#trapdoors",
-        "#crops"
+        "#crops",
+        "#carpets"
     ]
 }
