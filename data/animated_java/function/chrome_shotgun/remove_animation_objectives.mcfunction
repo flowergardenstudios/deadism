@@ -6,4 +6,5 @@ scoreboard objectives remove aj.reload_load1.frame
 scoreboard objectives remove aj.reload_end.frame
 scoreboard objectives remove aj.walk.frame
 scoreboard objectives remove aj.run.frame
+scoreboard objectives remove aj.wall.frame
 tellraw @a [{color:'gray',text:'\n '},{color:'#00aced',text:'ᴀɴɪᴍᴀᴛᴇᴅ ᴊᴀᴠᴀ'},{color:'dark_gray',italic:true,text:'\n (animated_java:chrome_shotgun)'},'\n → ',{color:'green',text:'Successfully uninstalled '},{color:'yellow',text:'chrome_shotgun'},{color:'green',text:'!'},{color:'gray',italic:true,text:'\n If you have exported multiple times, you may have to remove objectives from previous exports manually, as Animated Java only knows about the objectives from the most recent export.'},'\n']

@@ -1,4 +1,4 @@
 {
 	"replace": false,
-	"values": ["deadism:global/tick", "lsp:loop", "tl:loop", "animated_java:global/on_tick"]
+	"values": ["lsp:loop", "tl:loop", "animated_java:global/on_tick"]
 }

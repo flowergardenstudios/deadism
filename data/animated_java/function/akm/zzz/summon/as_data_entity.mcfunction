@@ -3,6 +3,11 @@ data modify entity @s data.uuids append from storage animated_java:gu out
 function animated_java:global/gu/get_entity_uuid_string
 data modify entity @s data.uuids append from storage animated_java:gu out
 data modify entity @s data.uuids_by_name.data_data set from storage animated_java:gu out
+summon minecraft:item_display ^-0.20625 ^-1.82353125 ^0.4338925 {Tags:["aj.akm.bone.akm1.child","aj.akm.bone.akm1.child.locator","aj.akm.bone.akm1.decendant","aj.akm.bone.akm1.decendant.locator","aj.akm.bone.akm1.tree","aj.akm.bone.right.decendant","aj.akm.bone.right.decendant.locator","aj.akm.bone.right.tree","aj.akm.bone.right_arm.decendant","aj.akm.bone.right_arm.decendant.locator","aj.akm.bone.right_arm.tree","aj.akm.bone.torso.decendant","aj.akm.bone.torso.decendant.locator","aj.akm.bone.torso.tree","aj.akm.entity","aj.akm.locator","aj.akm.locator.akm","aj.akm.node","aj.akm.node.akm","aj.global.bone.akm1.child","aj.global.bone.akm1.child.locator","aj.global.bone.akm1.decendant","aj.global.bone.akm1.decendant.locator","aj.global.bone.akm1.tree","aj.global.bone.right.decendant","aj.global.bone.right.decendant.locator","aj.global.bone.right.tree","aj.global.bone.right_arm.decendant","aj.global.bone.right_arm.decendant.locator","aj.global.bone.right_arm.tree","aj.global.bone.torso.decendant","aj.global.bone.torso.decendant.locator","aj.global.bone.torso.tree","aj.global.entity","aj.global.locator","aj.global.node","aj.global.node.akm","aj.new"]}
+execute as @n[ type=minecraft:item_display, tag=aj.akm.locator.akm, tag=aj.new, distance=..2 ] run function animated_java:akm/zzz/summon/as_data_entity/as_locator/akm
+data modify entity @s data.uuids append from storage animated_java:gu out
+data modify entity @s data.uuids_by_name.locator_akm set from storage animated_java:gu out
+data modify entity @s data.locators.akm.uuid set from storage animated_java:gu out
 execute on vehicle on passengers if entity @s[tag=aj.akm.node.magazine] run function animated_java:global/gu/get_entity_uuid_string
 data modify entity @s data.uuids append from storage animated_java:gu out
 data modify entity @s data.uuids_by_name.bone_magazine set from storage animated_java:gu out
