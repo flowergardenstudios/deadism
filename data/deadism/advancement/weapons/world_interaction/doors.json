@@ -1,0 +1,13 @@
+{
+    "criteria": {
+        "opened_door": {
+            "trigger": "minecraft:any_block_use",
+            "conditions": {
+                "location": []
+            }
+        }
+    },
+    "rewards": {
+        "function": "deadism:zprivate/weapons/world_interaction/doors"
+    }
+}

@@ -1,0 +1,1 @@
+item replace entity @s armor.head with dirt[enchantments={binding_curse:1},item_model="minecraft:air", tooltip_display={hide_tooltip:true}, equippable={slot:"head", camera_overlay:"minecraft:misc/pumpkinblur"}]

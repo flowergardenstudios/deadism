@@ -5,6 +5,5 @@ scoreboard objectives add aj.shoot.frame dummy
 scoreboard objectives add aj.reload_start.frame dummy
 scoreboard objectives add aj.reload_load1.frame dummy
 scoreboard objectives add aj.reload_end.frame dummy
-scoreboard objectives add aj.walk.frame dummy
 scoreboard objectives add aj.run.frame dummy
 scoreboard objectives add aj.wall.frame dummy

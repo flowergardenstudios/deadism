@@ -9,3 +9,4 @@ $data merge entity $(bone_shotgun_shell1) {transformation: [0f,0f,0f,-0.1748f,0f
 $data merge entity $(bone_right_arm) {transformation: [-0.9914f,-0.1305f,0f,-0.2812f,0f,0f,-1f,-0.6562f,0.1305f,-0.9914f,0f,0.1875f,0f,0f,0f,1f],start_interpolation: 0,interpolation_duration: 1}
 $data merge entity $(bone_left_arm) {transformation: [-0.839f,0.4982f,-0.2188f,-0.0156f,0.2995f,0.0871f,-0.9501f,-0.6563f,-0.4542f,-0.8627f,-0.2223f,0.8125f,0f,0f,0f,1f],start_interpolation: 0,interpolation_duration: 1}
 data modify entity @s data merge value {"cameras":{},"locators":{"barrel":{"px":-0.20312500000000017,"py":-0.5906250000000001,"pz":1.25,"ry":0,"rx":0}}}
+execute on vehicle unless entity @s[tag=aj.transforms_only] at @s run function animated_java:chrome_shotgun/animations/equip/zzz/frames/23_root_function
