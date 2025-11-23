@@ -12,7 +12,7 @@
                             "tag": {
                                 "deadism.weapon": true,
                                 "deadism.weapon.ID": 2,
-                                "deadism.ammo":{"in_gun": 30, "reloadable_amount": 90}
+                                "deadism.ammo":{"in_gun": 40, "reloadable_amount": 360}
                             }
                         },
                         {

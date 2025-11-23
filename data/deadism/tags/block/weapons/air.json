@@ -15,6 +15,7 @@
         "#trapdoors",
         "#crops",
         "#carpets",
-        "#pressure_plates"
+        "#pressure_plates",
+        "ladder"
     ]
 }
