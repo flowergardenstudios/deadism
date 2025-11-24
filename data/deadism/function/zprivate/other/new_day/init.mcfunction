@@ -1,0 +1,1 @@
+playsound deadism:music.anotherday master @s ~ ~ ~ 1 1 1

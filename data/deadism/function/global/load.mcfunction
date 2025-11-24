@@ -6,7 +6,7 @@ gamerule doImmediateRespawn true
 gamerule locatorBar false
 tellraw @a { "color": "#FFE2DB", "bold":true,"text": "[DeadiSM] Loaded."}
 
-
+function deadism:zprivate/other/init
 function deadism:zprivate/player/init
 function deadism:zprivate/traps/init
 function deadism:zprivate/mechanics/init
