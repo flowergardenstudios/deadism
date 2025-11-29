@@ -1,0 +1,53 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:poisonous_potato",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": {
+                                "deadism.weapon": true,
+                                "deadism.weapon.ID": 3,
+                                "deadism.ammo":{"in_gun": 0, "reloadable_amount": 1},
+                                "deadism.melee": true
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_custom_model_data",
+                            "strings": {
+                                "values": [
+                                    "deadism.weapons.melee.fire_extinguisher"
+                                ],
+                                "mode": "append"
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:custom_name": {
+                                    "translate": "deadism.weapons.melee.fire_extinguisher",
+                                    "fallback": "FIRE EXTINGUISHER",
+                                    "italic":false,
+                                    "font": "deadism:f25bankprinter"
+                                },
+                                "minecraft:food": {
+                                    "nutrition": 0,
+                                    "saturation": 0,
+                                    "can_always_eat": true
+                                },
+                                "minecraft:consumable": {
+                                    "consume_seconds": 99999
+                                }
+                            },
+                            "conditions": []
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
