@@ -1,4 +1,9 @@
 {
 	"replace": false,
-	"values": ["animated_java:akm/on_load", "animated_java:chrome_shotgun/on_load"]
+	"values": [
+		"animated_java:akm/on_load",
+		"animated_java:chrome_shotgun/on_load",
+		"animated_java:fire_extinguisher/on_load",
+		"animated_java:player/on_load"
+	]
 }
