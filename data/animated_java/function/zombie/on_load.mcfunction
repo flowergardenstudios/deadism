@@ -5,3 +5,5 @@ scoreboard objectives add aj.walk1.frame dummy
 scoreboard objectives add aj.hit1.frame dummy
 scoreboard objectives add aj.death1.frame dummy
 scoreboard objectives add aj.stun1.frame dummy
+scoreboard objectives add aj.bullet_eat_1.frame dummy
+scoreboard objectives add aj.bullet_eat_2.frame dummy

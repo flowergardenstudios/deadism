@@ -4,4 +4,3 @@ $data merge entity $(bone_right_arm) {transformation: [-0.9962f,0.0871f,-0.0038f
 $data merge entity $(bone_left_arm) {transformation: [-0.9914f,-0.1304f,0.0057f,0.375f,-0.1294f,0.9877f,0.0875f,-0.6619f,-0.017f,0.086f,-0.9961f,-0.7893f,0f,0f,0f,1f],start_interpolation: 0,interpolation_duration: 1}
 $data merge entity $(bone_left_leg) {transformation: [-0.9962f,-0.0871f,0.0038f,0.125f,-0.0871f,0.9924f,-0.087f,-1.375f,0.0038f,-0.087f,-0.9962f,-0.875f,0f,0f,0f,1f],start_interpolation: 0,interpolation_duration: 1}
 $data merge entity $(bone_right_leg) {transformation: [-1f,0f,0f,-0.125f,0f,0.9914f,0.1305f,-1.375f,0f,0.1305f,-0.9914f,-0.875f,0f,0f,0f,1f],start_interpolation: 0,interpolation_duration: 1}
-execute on vehicle unless entity @s[tag=aj.transforms_only] at @s run function animated_java:zombie/animations/stun1/zzz/frames/24_root_function

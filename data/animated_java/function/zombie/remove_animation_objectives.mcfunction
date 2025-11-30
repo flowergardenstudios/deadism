@@ -4,4 +4,6 @@ scoreboard objectives remove aj.walk1.frame
 scoreboard objectives remove aj.hit1.frame
 scoreboard objectives remove aj.death1.frame
 scoreboard objectives remove aj.stun1.frame
+scoreboard objectives remove aj.bullet_eat_1.frame
+scoreboard objectives remove aj.bullet_eat_2.frame
 tellraw @a [{color:'gray',text:'\n '},{color:'#00aced',text:'ᴀɴɪᴍᴀᴛᴇᴅ ᴊᴀᴠᴀ'},{color:'dark_gray',italic:true,text:'\n (animated_java:zombie)'},'\n → ',{color:'green',text:'Successfully uninstalled '},{color:'yellow',text:'zombie'},{color:'green',text:'!'},{color:'gray',italic:true,text:'\n If you have exported multiple times, you may have to remove objectives from previous exports manually, as Animated Java only knows about the objectives from the most recent export.'},'\n']

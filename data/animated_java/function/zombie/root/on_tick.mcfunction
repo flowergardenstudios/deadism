@@ -5,4 +5,6 @@ execute if entity @s[tag=aj.zombie.animation.walk1.playing] run function animate
 execute if entity @s[tag=aj.zombie.animation.hit1.playing] run function animated_java:zombie/animations/hit1/zzz/on_tick
 execute if entity @s[tag=aj.zombie.animation.death1.playing] run function animated_java:zombie/animations/death1/zzz/on_tick
 execute if entity @s[tag=aj.zombie.animation.stun1.playing] run function animated_java:zombie/animations/stun1/zzz/on_tick
+execute if entity @s[tag=aj.zombie.animation.bullet_eat_1.playing] run function animated_java:zombie/animations/bullet_eat_1/zzz/on_tick
+execute if entity @s[tag=aj.zombie.animation.bullet_eat_2.playing] run function animated_java:zombie/animations/bullet_eat_2/zzz/on_tick
 execute on passengers run rotate @s ~ ~

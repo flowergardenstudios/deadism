@@ -5,3 +5,5 @@ tag @s remove aj.zombie.animation.walk1.playing
 tag @s remove aj.zombie.animation.hit1.playing
 tag @s remove aj.zombie.animation.death1.playing
 tag @s remove aj.zombie.animation.stun1.playing
+tag @s remove aj.zombie.animation.bullet_eat_1.playing
+tag @s remove aj.zombie.animation.bullet_eat_2.playing

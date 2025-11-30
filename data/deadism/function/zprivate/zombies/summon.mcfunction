@@ -1,6 +1,6 @@
 #> Spawn Base Entity
 summon husk ~ ~ ~ {attributes:[{id:"knockback_resistance", base:1000000f}],DeathLootTable:"",active_effects:[{id:"invisibility",duration:-1,show_particles:false}],Tags:["deadism.ZOMBIE", "deadism.new"]}
-execute rotated ~ 0 run function animated_java:zombie/summon {args:{ variant:'3'}}
+execute rotated ~ 0 run function animated_java:zombie/summon {args:{ variant:'2'}}
 
 #> Set ID
 scoreboard players operation @n[tag=deadism.ZOMBIE,tag=deadism.new,type=husk] deadism.entity.ID = .global deadism.entity.ID
