@@ -4,6 +4,7 @@
 		"animated_java:akm/root/on_tick",
 		"animated_java:chrome_shotgun/root/on_tick",
 		"animated_java:fire_extinguisher/root/on_tick",
-		"animated_java:player/root/on_tick"
+		"animated_java:player/root/on_tick",
+		"animated_java:zombie/root/on_tick"
 	]
 }
