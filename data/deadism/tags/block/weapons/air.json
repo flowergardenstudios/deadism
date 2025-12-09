@@ -16,6 +16,7 @@
         "#crops",
         "#carpets",
         "#pressure_plates",
-        "ladder"
+        "ladder",
+        "light"
     ]
 }

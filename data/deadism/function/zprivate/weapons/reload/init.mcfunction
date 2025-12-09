@@ -4,3 +4,4 @@ scoreboard players operation #ID deadism.weapon.ID = @s deadism.weapon.ID
 
 execute if entity @n[tag=deadism.weapon.chrome_shotgun,predicate=deadism:id/weapons/id] run return run function deadism:zprivate/weapons/shotguns/chrome_shotgun/reload/init
 execute if entity @n[tag=deadism.weapon.akm,predicate=deadism:id/weapons/id] run return run function deadism:zprivate/weapons/rifles/akm/reload
+execute if entity @n[tag=deadism.weapon.glock,predicate=deadism:id/weapons/id] run return run function deadism:zprivate/weapons/pistols/glock/reload

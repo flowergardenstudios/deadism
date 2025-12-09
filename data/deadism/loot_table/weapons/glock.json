@@ -1,0 +1,52 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:poisonous_potato",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": {
+                                "deadism.weapon": true,
+                                "deadism.weapon.ID": 4,
+                                "deadism.ammo":{"in_gun": 15, "reloadable_amount": 9999}
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_custom_model_data",
+                            "strings": {
+                                "values": [
+                                    "deadism.weapons.pistol.glock"
+                                ],
+                                "mode": "append"
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:custom_name": {
+                                    "translate": "deadism.weapons.pistol.glock",
+                                    "fallback": "GLOCK",
+                                    "italic":false,
+                                    "font": "deadism:f25bankprinter"
+                                },
+                                "minecraft:food": {
+                                    "nutrition": 0,
+                                    "saturation": 0,
+                                    "can_always_eat": true
+                                },
+                                "minecraft:consumable": {
+                                    "consume_seconds": 99999
+                                }
+                            },
+                            "conditions": []
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

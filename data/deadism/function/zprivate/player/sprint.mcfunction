@@ -1,3 +1,5 @@
+#return fail
+
 scoreboard players operation #ID deadism.player.ID = @s deadism.player.ID
 
 tag @s[predicate=deadism:is_sprinting,scores={lsp.stamina=1..}] add deadism.IsSprinting
@@ -12,3 +14,7 @@ execute as @s[tag=!deadism.IsSprinting,tag=!deadism.weapon.cooldown,tag=!deadism
 execute as @s[tag=deadism.IsOutOfStamina,tag=!deadism.weapon.cooldown,tag=!deadism.weapon.reloading] as @n[tag=deadism.weapon.akm,predicate=deadism:id/weapons/id] run return run function animated_java:akm/animations/equip/tween {to_frame:13, duration: 5}
 execute as @s[tag=deadism.IsSprinting,tag=!deadism.weapon.cooldown,tag=!deadism.weapon.reloading] as @n[tag=deadism.weapon.akm,predicate=deadism:id/weapons/id] run return run function animated_java:akm/animations/run/tween {to_frame:0, duration: 5}
 execute as @s[tag=!deadism.IsSprinting,tag=!deadism.weapon.cooldown,tag=!deadism.weapon.reloading] as @n[tag=deadism.weapon.akm,predicate=deadism:id/weapons/id] run return run function animated_java:akm/animations/equip/tween {to_frame:13, duration: 5}
+
+execute as @s[tag=deadism.IsOutOfStamina,tag=!deadism.weapon.cooldown,tag=!deadism.weapon.reloading] as @n[tag=deadism.weapon.glock,predicate=deadism:id/weapons/id] run return run function animated_java:glock/animations/equip/tween {to_frame:25, duration: 5}
+execute as @s[tag=deadism.IsSprinting,tag=!deadism.weapon.cooldown,tag=!deadism.weapon.reloading] as @n[tag=deadism.weapon.glock,predicate=deadism:id/weapons/id] run return run function animated_java:glock/animations/sprint/tween {to_frame:0, duration: 5}
+execute as @s[tag=!deadism.IsSprinting,tag=!deadism.weapon.cooldown,tag=!deadism.weapon.reloading] as @n[tag=deadism.weapon.glock,predicate=deadism:id/weapons/id] run return run function animated_java:glock/animations/equip/tween {to_frame:25, duration: 5}

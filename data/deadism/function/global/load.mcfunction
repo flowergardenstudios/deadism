@@ -12,6 +12,7 @@ function deadism:zprivate/traps/init
 function deadism:zprivate/mechanics/init
 function deadism:zprivate/weapons/init
 function deadism:zprivate/zombies/init
+function deadism:zprivate/light/init
 
 function deadism:global/loop_1t
 
