@@ -16,5 +16,5 @@ execute as @s[tag=deadism.IsSprinting,tag=!deadism.weapon.cooldown,tag=!deadism.
 execute as @s[tag=!deadism.IsSprinting,tag=!deadism.weapon.cooldown,tag=!deadism.weapon.reloading] as @n[tag=deadism.weapon.akm,predicate=deadism:id/weapons/id] run return run function animated_java:akm/animations/equip/tween {to_frame:13, duration: 5}
 
 execute as @s[tag=deadism.IsOutOfStamina,tag=!deadism.weapon.cooldown,tag=!deadism.weapon.reloading] as @n[tag=deadism.weapon.glock,predicate=deadism:id/weapons/id] run return run function animated_java:glock/animations/equip/tween {to_frame:25, duration: 5}
-execute as @s[tag=deadism.IsSprinting,tag=!deadism.weapon.cooldown,tag=!deadism.weapon.reloading] as @n[tag=deadism.weapon.glock,predicate=deadism:id/weapons/id] run return run function animated_java:glock/animations/sprint/tween {to_frame:0, duration: 5}
+execute as @s[tag=deadism.IsSprinting,tag=!deadism.weapon.cooldown,tag=!deadism.weapon.reloading] as @n[tag=deadism.weapon.glock,predicate=deadism:id/weapons/id] run return run function animated_java:glock/animations/sprint/tween {to_frame:3, duration: 5}
 execute as @s[tag=!deadism.IsSprinting,tag=!deadism.weapon.cooldown,tag=!deadism.weapon.reloading] as @n[tag=deadism.weapon.glock,predicate=deadism:id/weapons/id] run return run function animated_java:glock/animations/equip/tween {to_frame:25, duration: 5}
