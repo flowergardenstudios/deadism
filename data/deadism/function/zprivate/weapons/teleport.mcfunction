@@ -9,7 +9,7 @@ execute unless entity @p[predicate=deadism:id/weapons/id] run return run kill @s
 #execute rotated as @p[predicate=deadism:id/weapons/id] run rotate @s ~ ~
 #return fail
 
-ride @s mount @p[predicate=deadism:id/weapons/id]
+ride @s mount @p[predicate=deadism:id/weapons/id,predicate=!deadism:has_passengers]
 execute rotated as @p[predicate=deadism:id/weapons/id] run rotate @s ~ ~
 #execute rotated as @p[predicate=deadism:id/weapons/id] run function deadism:zprivate/weapons/viewmodel/init
 #execute as @p[predicate=deadism:id/weapons/id,predicate=!deadism:key/sneak] at @s anchored eyes positioned ^ ^ ^ run tp @n[tag=deadism.weapon,predicate=deadism:id/weapons/id] ~ ~ ~ ~ ~

@@ -8,5 +8,5 @@ $data merge entity $(bone_trigger_gaurd) {transformation: [-0.9955f,-0.091f,-0.0
 $data merge entity $(bone_right_arm) {transformation: [-0.9955f,-0.0272f,0.091f,-0.0938f,-0.0784f,-0.3053f,-0.949f,-0.475f,0.0536f,-0.9519f,0.3018f,0.1875f,0f,0f,0f,1f],start_interpolation: 0,interpolation_duration: 1}
 $data merge entity $(bone_magazine1) {transformation: [0f,0f,0f,0.0083f,0f,0f,0f,-0.6377f,0f,0f,0f,0.7922f,0f,0f,0f,1f],start_interpolation: 0,interpolation_duration: 1}
 $data merge entity $(bone_left_arm) {transformation: [0.9051f,0.3908f,0.1678f,0.1781f,-0.1951f,0.031f,0.9803f,-0.5125f,0.3779f,-0.92f,0.1043f,0.45f,0f,0f,0f,1f],start_interpolation: 0,interpolation_duration: 1}
-data modify entity @s data merge value {"cameras":{},"locators":{"barrel1":{"px":-0.07424001401094235,"py":-0.19783225300192556,"pz":0.7218151813028695,"ry":358.3615054542885,"rx":-17.77766286342625}}}
+data modify entity @s data merge value {"cameras":{},"locators":{"barrel1":{"px":-0.07168740237528437,"py":-0.16920811976749164,"pz":0.8110519767989812,"ry":358.3615054542885,"rx":-17.77766286342625},"ammo_display":{"px":0.04188177805527114,"py":-0.27351874887710725,"pz":0.5523543561854778,"ry":358.3615054542885,"rx":-17.77766286342625}}}
 execute on vehicle unless entity @s[tag=aj.transforms_only] at @s run function animated_java:glock/animations/use/zzz/frames/0_root_function

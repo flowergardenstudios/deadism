@@ -3,4 +3,3 @@ tag @s add deadism.weapon.glock
 tag @s add deadism.weapon
 tag @s add deadism.weapon.NEW
 execute on passengers run data modify entity @s view_range set value 0.05f
-function animated_java:glock/animations/equip/play

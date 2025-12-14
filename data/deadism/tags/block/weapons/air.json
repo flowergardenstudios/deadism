@@ -17,6 +17,7 @@
         "#carpets",
         "#pressure_plates",
         "ladder",
-        "light"
+        "light",
+        "barrier"
     ]
 }
