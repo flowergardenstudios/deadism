@@ -3,7 +3,7 @@ $data merge entity $(bone_magazine) {transformation: [0f,0f,0f,-0.2378f,0f,0f,0f
 $data merge entity $(bone_chamber) {transformation: [-0.8335f,-0.5489f,-0.064f,-0.2473f,-0.547f,0.8359f,-0.0452f,-0.4377f,0.0783f,-0.0027f,-0.9969f,0.2804f,0f,0f,0f,1f],start_interpolation: 0,interpolation_duration: 2}
 $data merge entity $(bone_akm1) {transformation: [-0.8335f,-0.5489f,-0.064f,-0.2473f,-0.547f,0.8359f,-0.0452f,-0.4377f,0.0783f,-0.0027f,-0.9969f,0.2804f,0f,0f,0f,1f],start_interpolation: 0,interpolation_duration: 2}
 $data merge entity $(bone_right_arm) {transformation: [-0.8335f,-0.064f,0.5489f,-0.25f,-0.547f,-0.0452f,-0.8359f,-0.541f,0.0783f,-0.9969f,0.0027f,-0.3109f,0f,0f,0f,1f],start_interpolation: 0,interpolation_duration: 2}
-$data merge entity $(bone_magazine2) {transformation: [-0.6932f,-0.7152f,-0.089f,-0.0826f,-0.7191f,0.6781f,0.1516f,-0.642f,-0.0481f,0.1691f,-0.9844f,0.186f,0f,0f,0f,1f],start_interpolation: 0,interpolation_duration: 2}
-$data merge entity $(bone_forearm) {transformation: [-0.6906f,0.1813f,0.7001f,-0.0153f,-0.6485f,0.273f,-0.7105f,-0.581f,-0.32f,-0.9448f,-0.071f,-0.143f,0f,0f,0f,1f],start_interpolation: 0,interpolation_duration: 2}
+$data merge entity $(bone_magazine2) {transformation: [-0.6932f,-0.7152f,-0.089f,-0.1614f,-0.7191f,0.6781f,0.1516f,-0.7199f,-0.0481f,0.1691f,-0.9844f,0.1887f,0f,0f,0f,1f],start_interpolation: 0,interpolation_duration: 2}
+$data merge entity $(bone_forearm) {transformation: [-0.6906f,0.1813f,0.7001f,-0.0941f,-0.6485f,0.273f,-0.7105f,-0.6588f,-0.32f,-0.9448f,-0.071f,-0.1402f,0f,0f,0f,1f],start_interpolation: 0,interpolation_duration: 2}
 data modify entity @s data merge value {"cameras":{},"locators":{"akm":{"px":-0.2375401678774972,"py":-0.38416681322996127,"pz":0.7579937088136808,"ry":356.32870398034856,"rx":-2.5919441721715866}}}
 execute on vehicle unless entity @s[tag=aj.transforms_only] at @s run function animated_java:akm/animations/reload/zzz/frames/39_root_function
