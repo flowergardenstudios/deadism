@@ -6,35 +6,35 @@ data modify entity @s data.uuids_by_name.data_data set from storage animated_jav
 summon minecraft:item_display ^-0.20625 ^-1.0375 ^0.275 {Tags:["aj.global.bone.camera.decendant","aj.global.bone.camera.decendant.locator","aj.global.bone.camera.tree","aj.global.bone.glock.child","aj.global.bone.glock.child.locator","aj.global.bone.glock.decendant","aj.global.bone.glock.decendant.locator","aj.global.bone.glock.tree","aj.global.bone.main.decendant","aj.global.bone.main.decendant.locator","aj.global.bone.main.tree","aj.global.bone.right_arm.decendant","aj.global.bone.right_arm.decendant.locator","aj.global.bone.right_arm.tree","aj.global.bone.torso.decendant","aj.global.bone.torso.decendant.locator","aj.global.bone.torso.tree","aj.global.entity","aj.global.locator","aj.global.node","aj.global.node.barrel1","aj.glock.bone.camera.decendant","aj.glock.bone.camera.decendant.locator","aj.glock.bone.camera.tree","aj.glock.bone.glock.child","aj.glock.bone.glock.child.locator","aj.glock.bone.glock.decendant","aj.glock.bone.glock.decendant.locator","aj.glock.bone.glock.tree","aj.glock.bone.main.decendant","aj.glock.bone.main.decendant.locator","aj.glock.bone.main.tree","aj.glock.bone.right_arm.decendant","aj.glock.bone.right_arm.decendant.locator","aj.glock.bone.right_arm.tree","aj.glock.bone.torso.decendant","aj.glock.bone.torso.decendant.locator","aj.glock.bone.torso.tree","aj.glock.entity","aj.glock.locator","aj.glock.locator.barrel1","aj.glock.node","aj.glock.node.barrel1","aj.new"]}
 execute as @n[ type=minecraft:item_display, tag=aj.glock.locator.barrel1, tag=aj.new, distance=..2 ] run function animated_java:glock/zzz/summon/as_data_entity/as_locator/barrel1
 data modify entity @s data.uuids append from storage animated_java:gu out
-data modify entity @s data.uuids_by_name.locator_barrel1 set from storage animated_java:gu out
+data modify entity @s data.uuids_by_name.barrel1 set from storage animated_java:gu out
 data modify entity @s data.locators.barrel1.uuid set from storage animated_java:gu out
 execute on vehicle on passengers if entity @s[tag=aj.glock.node.muzzleflash] run function animated_java:global/gu/get_entity_uuid_string
 data modify entity @s data.uuids append from storage animated_java:gu out
-data modify entity @s data.uuids_by_name.bone_muzzleflash set from storage animated_java:gu out
+data modify entity @s data.uuids_by_name.muzzleflash set from storage animated_java:gu out
 execute on vehicle on passengers if entity @s[tag=aj.glock.node.slide] run function animated_java:global/gu/get_entity_uuid_string
 data modify entity @s data.uuids append from storage animated_java:gu out
-data modify entity @s data.uuids_by_name.bone_slide set from storage animated_java:gu out
+data modify entity @s data.uuids_by_name.slide set from storage animated_java:gu out
 execute on vehicle on passengers if entity @s[tag=aj.glock.node.barrel] run function animated_java:global/gu/get_entity_uuid_string
 data modify entity @s data.uuids append from storage animated_java:gu out
-data modify entity @s data.uuids_by_name.bone_barrel set from storage animated_java:gu out
+data modify entity @s data.uuids_by_name.barrel set from storage animated_java:gu out
 execute on vehicle on passengers if entity @s[tag=aj.glock.node.magazine] run function animated_java:global/gu/get_entity_uuid_string
 data modify entity @s data.uuids append from storage animated_java:gu out
-data modify entity @s data.uuids_by_name.bone_magazine set from storage animated_java:gu out
+data modify entity @s data.uuids_by_name.magazine set from storage animated_java:gu out
 execute on vehicle on passengers if entity @s[tag=aj.glock.node.grip] run function animated_java:global/gu/get_entity_uuid_string
 data modify entity @s data.uuids append from storage animated_java:gu out
-data modify entity @s data.uuids_by_name.bone_grip set from storage animated_java:gu out
+data modify entity @s data.uuids_by_name.grip set from storage animated_java:gu out
 execute on vehicle on passengers if entity @s[tag=aj.glock.node.trigger] run function animated_java:global/gu/get_entity_uuid_string
 data modify entity @s data.uuids append from storage animated_java:gu out
-data modify entity @s data.uuids_by_name.bone_trigger set from storage animated_java:gu out
+data modify entity @s data.uuids_by_name.trigger set from storage animated_java:gu out
 execute on vehicle on passengers if entity @s[tag=aj.glock.node.trigger_gaurd] run function animated_java:global/gu/get_entity_uuid_string
 data modify entity @s data.uuids append from storage animated_java:gu out
-data modify entity @s data.uuids_by_name.bone_trigger_gaurd set from storage animated_java:gu out
+data modify entity @s data.uuids_by_name.trigger_gaurd set from storage animated_java:gu out
 execute on vehicle on passengers if entity @s[tag=aj.glock.node.right_arm] run function animated_java:global/gu/get_entity_uuid_string
 data modify entity @s data.uuids append from storage animated_java:gu out
-data modify entity @s data.uuids_by_name.bone_right_arm set from storage animated_java:gu out
+data modify entity @s data.uuids_by_name.right_arm set from storage animated_java:gu out
 execute on vehicle on passengers if entity @s[tag=aj.glock.node.magazine1] run function animated_java:global/gu/get_entity_uuid_string
 data modify entity @s data.uuids append from storage animated_java:gu out
-data modify entity @s data.uuids_by_name.bone_magazine1 set from storage animated_java:gu out
+data modify entity @s data.uuids_by_name.magazine1 set from storage animated_java:gu out
 execute on vehicle on passengers if entity @s[tag=aj.glock.node.left_arm] run function animated_java:global/gu/get_entity_uuid_string
 data modify entity @s data.uuids append from storage animated_java:gu out
-data modify entity @s data.uuids_by_name.bone_left_arm set from storage animated_java:gu out
+data modify entity @s data.uuids_by_name.left_arm set from storage animated_java:gu out

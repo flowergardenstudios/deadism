@@ -3,4 +3,4 @@ execute unless entity @s[type=minecraft:item_display,tag=aj.glock.root] run retu
 data remove storage animated_java:temp args
 $data modify storage animated_java:temp args merge value {command:'$(command)'}
 execute if data storage animated_java:temp {args:{command:''}} run return run tellraw @a [{color:'red',text:''},{color:'gray',text:'\n '},{color:'#00aced',text:'ᴀɴɪᴍᴀᴛᴇᴅ ᴊᴀᴠᴀ'},{color:'dark_gray',italic:true,text:'\n (animated_java:glock)'},'\n → ᴇʀʀᴏʀ: ',{color:'red',underlined:true,text:'Argument Cannot Be Empty'},'\n\n Argument ',{color:'yellow',text:'command'},{color:'red',text:' cannot be an empty string.\n'}]
-execute on passengers if entity @s[tag=aj.global.data] run function animated_java:glock/zzz/as_all_locators/as_data
+execute on passengers run function animated_java:glock/zzz/as_all_locators/as_data
