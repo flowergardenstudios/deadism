@@ -11,7 +11,7 @@ execute as @s[tag=!deadism.IsSprinting,tag=!deadism.weapon.cooldown,tag=!deadism
 
 # execute as @s[tag=deadism.IsOutOfStamina,tag=!deadism.weapon.cooldown,tag=!deadism.weapon.reloading] on passengers as @s[tag=deadism.weapon, tag=deadism.weapon.akm] run return run function animated_java:akm/animations/equip/tween {to_frame:13, duration: 4}
 execute as @s[tag=deadism.IsSprinting,tag=!deadism.weapon.cooldown,tag=!deadism.weapon.reloading] on passengers as @s[tag=deadism.weapon, tag=deadism.weapon.akm] run return run function animated_java:akm/animations/run/tween {to_frame:0, duration: 5}
-execute as @s[tag=!deadism.IsSprinting,tag=!deadism.weapon.cooldown,tag=!deadism.weapon.reloading] on passengers as @s[tag=deadism.weapon, tag=deadism.weapon.akm] run return run function animated_java:akm/animations/equip/tween {to_frame:13, duration: 4}
+execute as @s[tag=!deadism.IsSprinting,tag=!deadism.weapon.cooldown,tag=!deadism.weapon.reloading] on passengers as @s[tag=deadism.weapon, tag=deadism.weapon.akm] run return run function animated_java:akm/animations/equip/tween {to_frame:30, duration: 4}
 
 # execute as @s[tag=deadism.IsOutOfStamina,tag=!deadism.weapon.cooldown,tag=!deadism.weapon.reloading] on passengers as @s[tag=deadism.weapon, tag=deadism.weapon.glock] run return run function animated_java:glock/animations/idle2/tween {to_frame:20, duration: 4}
 execute as @s[tag=deadism.IsSprinting,tag=!deadism.weapon.cooldown,tag=!deadism.weapon.reloading] on passengers as @s[tag=deadism.weapon, tag=deadism.weapon.glock] run return run function animated_java:glock/animations/sprint/tween {to_frame:3, duration: 5}
