@@ -15,4 +15,3 @@ function deadism:zprivate/zombies/init
 function deadism:zprivate/light/init
 
 function deadism:global/loop_1t
-

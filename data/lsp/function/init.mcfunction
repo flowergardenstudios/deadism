@@ -6,7 +6,7 @@ scoreboard objectives add lsp.stamina dummy
     scoreboard players set unsprintable.speed lsp.Values 5
 
     # ENABLED = (1=TRUE,0=FALSE);
-    scoreboard players set enabled lsp.Values 1
+    scoreboard players set enabled lsp.Values 0
     
     # 1 second = 20 ticks
     # 10 seconds = 200 ticks

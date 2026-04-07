@@ -3,8 +3,12 @@ data modify entity @s data.uuids append from storage animated_java:gu out
 function animated_java:global/gu/get_entity_uuid_string
 data modify entity @s data.uuids append from storage animated_java:gu out
 data modify entity @s data.uuids_by_name.data_data set from storage animated_java:gu out
-summon minecraft:item_display ^0 ^0.03125 ^0 {Tags:["aj.global.camera","aj.global.entity","aj.global.node","aj.global.node.camera","aj.global.root.child","aj.global.root.child.camera","aj.new","aj.player.camera","aj.player.camera.camera","aj.player.entity","aj.player.node","aj.player.node.camera"], teleport_duration: 2}
-execute as @n[ type=minecraft:item_display, tag=aj.player.camera.camera, tag=aj.new, distance=..3 ] run function animated_java:player/zzz/summon/as_data_entity/as_camera/camera
+execute on vehicle on passengers if entity @s[tag=aj.player.node.bone] run function animated_java:global/gu/get_entity_uuid_string
 data modify entity @s data.uuids append from storage animated_java:gu out
-data modify entity @s data.uuids_by_name.camera_camera set from storage animated_java:gu out
-data modify entity @s data.cameras.camera.uuid set from storage animated_java:gu out
+data modify entity @s data.uuids_by_name.bone_bone set from storage animated_java:gu out
+execute on vehicle on passengers if entity @s[tag=aj.player.node.right_leg] run function animated_java:global/gu/get_entity_uuid_string
+data modify entity @s data.uuids append from storage animated_java:gu out
+data modify entity @s data.uuids_by_name.bone_right_leg set from storage animated_java:gu out
+execute on vehicle on passengers if entity @s[tag=aj.player.node.left_leg] run function animated_java:global/gu/get_entity_uuid_string
+data modify entity @s data.uuids append from storage animated_java:gu out
+data modify entity @s data.uuids_by_name.bone_left_leg set from storage animated_java:gu out

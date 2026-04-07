@@ -6,5 +6,5 @@ execute if score @s aj.run.frame matches -1 run function animated_java:akm/anima
 data remove storage animated_java:temp args
 execute store result storage animated_java:temp args.frame int 1 run scoreboard players get @s aj.run.frame
 function animated_java:akm/animations/run/zzz/apply_frame with storage animated_java:temp args
-execute if score @s aj.run.frame matches 15.. run return run scoreboard players set @s aj.run.frame -1
+execute if score @s aj.run.frame matches 10.. run return run scoreboard players set @s aj.run.frame -1
 scoreboard players add @s aj.run.frame 1

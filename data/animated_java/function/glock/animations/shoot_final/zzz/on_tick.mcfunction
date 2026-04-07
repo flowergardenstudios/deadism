@@ -5,5 +5,5 @@ execute if score @s aj.tween_duration matches 0 on passengers run data modify en
 data remove storage animated_java:temp args
 execute store result storage animated_java:temp args.frame int 1 run scoreboard players get @s aj.shoot_final.frame
 function animated_java:glock/animations/shoot_final/zzz/apply_frame with storage animated_java:temp args
-execute if score @s aj.shoot_final.frame matches 12.. run return run function animated_java:glock/animations/shoot_final/pause
+execute if score @s aj.shoot_final.frame matches 20.. run return run function animated_java:glock/animations/shoot_final/pause
 scoreboard players add @s aj.shoot_final.frame 1
