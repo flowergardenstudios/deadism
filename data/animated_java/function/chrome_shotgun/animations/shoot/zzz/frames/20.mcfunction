@@ -7,5 +7,5 @@ $data merge entity $(bone_trigger_part) {transformation: [-0.7993f,0.6009f,-0.00
 $data merge entity $(bone_chrome_shotgun) {transformation: [-0.7993f,0.6009f,-0.0005f,0.0566f,0.5972f,0.7943f,-0.1118f,-0.5774f,-0.0668f,-0.0896f,-0.9937f,0.2365f,0f,0f,0f,1f],start_interpolation: 0,interpolation_duration: 1}
 $data merge entity $(bone_shotgun_shell1) {transformation: [0f,0f,0f,0.0685f,0f,0f,0f,-0.591f,0f,0f,0f,0.1609f,0f,0f,0f,1f],start_interpolation: 0,interpolation_duration: 1}
 $data merge entity $(bone_right_arm) {transformation: [-0.7924f,-0.1048f,-0.6009f,-0.0374f,0.6067f,-0.0328f,-0.7943f,-0.5916f,0.0635f,-0.9939f,0.0896f,-0.1707f,0f,0f,0f,1f],start_interpolation: 0,interpolation_duration: 1}
-$data merge entity $(bone_left_arm) {transformation: [-0.4908f,0.205f,-0.8468f,0.1224f,0.6882f,-0.5048f,-0.5211f,-0.7701f,-0.5342f,-0.8386f,0.1067f,0.2994f,0f,0f,0f,1f],start_interpolation: 0,interpolation_duration: 1}
+$data merge entity $(bone_left_arm) {transformation: [-0.4908f,0.205f,-0.8468f,0.1188f,0.6882f,-0.5048f,-0.5211f,-0.7747f,-0.5342f,-0.8386f,0.1067f,0.2999f,0f,0f,0f,1f],start_interpolation: 0,interpolation_duration: 1}
 data modify entity @s data merge value {"cameras":{},"locators":{"barrel":{"px":0.06503837695236302,"py":-0.4673930602266271,"pz":0.884518496989068,"ry":359.97195139171765,"rx":-6.416625364551499}}}
