@@ -10,4 +10,4 @@ execute on passengers if entity @s[tag=aj.akm.node.magazine2] run data merge ent
 execute on passengers if entity @s[tag=aj.akm.node.forearm] run data merge entity @s { transformation: [-1f,0f,0f,0.1687f,0f,1f,0f,-0.4375f,0f,0f,-1f,0.2188f,0f,0f,0f,1f], start_interpolation: -1 }
 execute on passengers if entity @s[tag=aj.akm.node.bicep] run data merge entity @s { transformation: [-1f,0f,0f,0.175f,0f,1f,0f,-0.0312f,0f,0f,-1f,0.2188f,0f,0f,0f,1f], start_interpolation: -1 }
 execute on passengers if entity @s[tag=aj.akm.node.left_arm] run data merge entity @s { transformation: [-1f,0f,0f,0.1719f,0f,1f,0f,-0.4062f,0f,0f,-1f,0.2188f,0f,0f,0f,1f], start_interpolation: -1 }
-execute on passengers if entity @s[tag=aj.akm.node.torso] run data merge entity @s { transformation: [-1f,0f,0f,0f,0f,1f,0f,-0.4375f,0f,0f,-1f,0.2188f,0f,0f,0f,1f], start_interpolation: -1 }
+execute on passengers if entity @s[tag=aj.akm.node._] run data merge entity @s { transformation: [-1f,0f,0f,0f,0f,1f,0f,-0.4375f,0f,0f,-1f,0.2188f,0f,0f,0f,1f], start_interpolation: -1 }
