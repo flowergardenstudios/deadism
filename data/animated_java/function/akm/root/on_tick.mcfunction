@@ -7,5 +7,5 @@ execute if entity @s[tag=aj.akm.animation.run.playing] run function animated_jav
 execute if entity @s[tag=aj.akm.animation.use.playing] run function animated_java:akm/animations/use/zzz/on_tick
 execute if entity @s[tag=aj.akm.animation.wall.playing] run function animated_java:akm/animations/wall/zzz/on_tick
 execute if entity @s[tag=aj.akm.animation.empty.playing] run function animated_java:akm/animations/empty/zzz/on_tick
-execute on passengers run function animated_java:akm/root/on_tick/transform_floating_entities
-execute on passengers run function animated_java:akm/root/zzz/0 with entity @s data.uuids_by_name
+execute on passengers if entity @s[tag=aj.global.data] run function animated_java:akm/root/on_tick/transform_floating_entities
+execute on passengers run rotate @s ~ ~

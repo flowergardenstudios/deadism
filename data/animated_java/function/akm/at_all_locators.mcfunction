@@ -3,4 +3,4 @@ execute unless entity @s[type=minecraft:item_display,tag=aj.akm.root] run return
 data remove storage animated_java:temp args
 $data modify storage animated_java:temp args merge value {command:'$(command)'}
 execute if data storage animated_java:temp {args:{command:''}} run return run tellraw @a [{color:'red',text:''},{color:'gray',text:'\n '},{color:'#00aced',text:'ᴀɴɪᴍᴀᴛᴇᴅ ᴊᴀᴠᴀ'},{color:'dark_gray',italic:true,text:'\n (animated_java:akm)'},'\n → ᴇʀʀᴏʀ: ',{color:'red',underlined:true,text:'Argument Cannot Be Empty'},'\n\n Argument ',{color:'yellow',text:'command'},{color:'red',text:' cannot be an empty string.\n'}]
-execute at @s on passengers run function animated_java:akm/zzz/at_all_locators/as_data
+execute at @s on passengers if entity @s[tag=aj.global.data] run function animated_java:akm/zzz/at_all_locators/as_data

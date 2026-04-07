@@ -3,4 +3,3 @@ scoreboard players set @s aj.wall.frame 0
 tag @s add aj.transforms_only
 execute at @s run function animated_java:chrome_shotgun/animations/wall/zzz/zzz/set_frame {frame: 0}
 tag @s remove aj.transforms_only
-tag @s remove aj.chrome_shotgun.animation.wall.playing
