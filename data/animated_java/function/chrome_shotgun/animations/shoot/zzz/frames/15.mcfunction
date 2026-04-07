@@ -8,5 +8,6 @@ $data merge entity $(bone_chrome_shotgun) {transformation: [-0.4911f,0.8711f,0.0
 $data merge entity $(bone_shotgun_shell1) {transformation: [0f,0f,0f,0.2053f,0f,0f,0f,-0.8812f,0f,0f,0f,0.1571f,0f,0f,0f,1f],start_interpolation: 0,interpolation_duration: 1}
 $data merge entity $(bone_right_arm) {transformation: [-0.4872f,-0.0617f,-0.8711f,0.1239f,0.873f,-0.0073f,-0.4877f,-0.8459f,0.0237f,-0.9981f,0.0575f,-0.1794f,0f,0f,0f,1f],start_interpolation: 0,interpolation_duration: 1}
 $data merge entity $(bone_left_arm) {transformation: [-0.15f,0.0266f,-0.9883f,0.1716f,0.8164f,-0.5605f,-0.139f,-1.0682f,-0.5576f,-0.8277f,0.0623f,0.2889f,0f,0f,0f,1f],start_interpolation: 0,interpolation_duration: 1}
+$data merge entity $(bone_muzzleflash) {transformation: [0f,0f,0f,-0.0719f,0f,0f,0f,-0.3953f,0f,0f,0f,0.7875f,0f,0f,0f,1f],start_interpolation: 0,interpolation_duration: 1}
 data modify entity @s data merge value {"cameras":{},"locators":{"barrel":{"px":0.21690298749093087,"py":-0.752679831173394,"pz":0.8798638803449851,"ry":0.13742812083117428,"rx":-6.961316457008991}}}
 execute on vehicle unless entity @s[tag=aj.transforms_only] at @s run function animated_java:chrome_shotgun/animations/shoot/zzz/frames/15_root_function

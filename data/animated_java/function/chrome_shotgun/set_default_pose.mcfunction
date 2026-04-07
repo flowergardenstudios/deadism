@@ -12,3 +12,4 @@ execute on passengers if entity @s[tag=aj.chrome_shotgun.node.right_arm] run dat
 execute on passengers if entity @s[tag=aj.chrome_shotgun.node.right] run data merge entity @s { transformation: [-1f,0f,0f,-0.0625f,0f,1f,0f,-0.8437f,0f,0f,-1f,-0.0937f,0f,0f,0f,1f], start_interpolation: -1 }
 execute on passengers if entity @s[tag=aj.chrome_shotgun.node.left_arm] run data merge entity @s { transformation: [-1f,0f,0f,0.2344f,0f,1f,0f,-0.4375f,0f,0f,-1f,-0.125f,0f,0f,0f,1f], start_interpolation: -1 }
 execute on passengers if entity @s[tag=aj.chrome_shotgun.node.torso] run data merge entity @s { transformation: [-1f,0f,0f,0.0625f,0f,1f,0f,-0.4687f,0f,0f,-1f,-0.125f,0f,0f,0f,1f], start_interpolation: -1 }
+execute on passengers if entity @s[tag=aj.chrome_shotgun.node.muzzleflash] run data merge entity @s { transformation: [-0.999f,-0.0436f,0f,-0.2031f,-0.0436f,0.999f,0f,-0.7703f,0f,0f,-1f,0.4f,0f,0f,0f,1f], start_interpolation: -1 }

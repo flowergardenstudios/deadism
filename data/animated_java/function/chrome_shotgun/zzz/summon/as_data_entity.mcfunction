@@ -30,3 +30,6 @@ data modify entity @s data.uuids_by_name.bone_right_arm set from storage animate
 execute on vehicle on passengers if entity @s[tag=aj.chrome_shotgun.node.left_arm] run function animated_java:global/gu/get_entity_uuid_string
 data modify entity @s data.uuids append from storage animated_java:gu out
 data modify entity @s data.uuids_by_name.bone_left_arm set from storage animated_java:gu out
+execute on vehicle on passengers if entity @s[tag=aj.chrome_shotgun.node.muzzleflash] run function animated_java:global/gu/get_entity_uuid_string
+data modify entity @s data.uuids append from storage animated_java:gu out
+data modify entity @s data.uuids_by_name.bone_muzzleflash set from storage animated_java:gu out
