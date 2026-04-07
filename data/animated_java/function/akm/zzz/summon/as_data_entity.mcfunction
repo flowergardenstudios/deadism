@@ -8,6 +8,11 @@ execute as @n[ type=minecraft:item_display, tag=aj.akm.locator.akm, tag=aj.new, 
 data modify entity @s data.uuids append from storage animated_java:gu out
 data modify entity @s data.uuids_by_name.locator_akm set from storage animated_java:gu out
 data modify entity @s data.locators.akm.uuid set from storage animated_java:gu out
+summon minecraft:item_display ^0.1375 ^-1.41728125 ^-0.0973575 {Tags:["aj.akm.bone._.decendant","aj.akm.bone._.decendant.locator","aj.akm.bone._.tree","aj.akm.bone.akm3.child","aj.akm.bone.akm3.child.locator","aj.akm.bone.akm3.decendant","aj.akm.bone.akm3.decendant.locator","aj.akm.bone.akm3.tree","aj.akm.bone.left_arm.decendant","aj.akm.bone.left_arm.decendant.locator","aj.akm.bone.left_arm.tree","aj.akm.entity","aj.akm.locator","aj.akm.locator.akm2","aj.akm.node","aj.akm.node.akm2","aj.global.bone._.decendant","aj.global.bone._.decendant.locator","aj.global.bone._.tree","aj.global.bone.akm3.child","aj.global.bone.akm3.child.locator","aj.global.bone.akm3.decendant","aj.global.bone.akm3.decendant.locator","aj.global.bone.akm3.tree","aj.global.bone.left_arm.decendant","aj.global.bone.left_arm.decendant.locator","aj.global.bone.left_arm.tree","aj.global.entity","aj.global.locator","aj.global.node","aj.global.node.akm2","aj.new"]}
+execute as @n[ type=minecraft:item_display, tag=aj.akm.locator.akm2, tag=aj.new, distance=..2 ] run function animated_java:akm/zzz/summon/as_data_entity/as_locator/akm2
+data modify entity @s data.uuids append from storage animated_java:gu out
+data modify entity @s data.uuids_by_name.locator_akm2 set from storage animated_java:gu out
+data modify entity @s data.locators.akm2.uuid set from storage animated_java:gu out
 execute on vehicle on passengers if entity @s[tag=aj.akm.node.magazine] run function animated_java:global/gu/get_entity_uuid_string
 data modify entity @s data.uuids append from storage animated_java:gu out
 data modify entity @s data.uuids_by_name.bone_magazine set from storage animated_java:gu out
@@ -17,15 +22,24 @@ data modify entity @s data.uuids_by_name.bone_chamber set from storage animated_
 execute on vehicle on passengers if entity @s[tag=aj.akm.node.akm1] run function animated_java:global/gu/get_entity_uuid_string
 data modify entity @s data.uuids append from storage animated_java:gu out
 data modify entity @s data.uuids_by_name.bone_akm1 set from storage animated_java:gu out
-execute on vehicle on passengers if entity @s[tag=aj.akm.node.right_arm] run function animated_java:global/gu/get_entity_uuid_string
-data modify entity @s data.uuids append from storage animated_java:gu out
-data modify entity @s data.uuids_by_name.bone_right_arm set from storage animated_java:gu out
 execute on vehicle on passengers if entity @s[tag=aj.akm.node.magazine2] run function animated_java:global/gu/get_entity_uuid_string
 data modify entity @s data.uuids append from storage animated_java:gu out
 data modify entity @s data.uuids_by_name.bone_magazine2 set from storage animated_java:gu out
+execute on vehicle on passengers if entity @s[tag=aj.akm.node.right_arm] run function animated_java:global/gu/get_entity_uuid_string
+data modify entity @s data.uuids append from storage animated_java:gu out
+data modify entity @s data.uuids_by_name.bone_right_arm set from storage animated_java:gu out
 execute on vehicle on passengers if entity @s[tag=aj.akm.node.forearm] run function animated_java:global/gu/get_entity_uuid_string
 data modify entity @s data.uuids append from storage animated_java:gu out
 data modify entity @s data.uuids_by_name.bone_forearm set from storage animated_java:gu out
+execute on vehicle on passengers if entity @s[tag=aj.akm.node.magazine1] run function animated_java:global/gu/get_entity_uuid_string
+data modify entity @s data.uuids append from storage animated_java:gu out
+data modify entity @s data.uuids_by_name.bone_magazine1 set from storage animated_java:gu out
+execute on vehicle on passengers if entity @s[tag=aj.akm.node.chamber1] run function animated_java:global/gu/get_entity_uuid_string
+data modify entity @s data.uuids append from storage animated_java:gu out
+data modify entity @s data.uuids_by_name.bone_chamber1 set from storage animated_java:gu out
+execute on vehicle on passengers if entity @s[tag=aj.akm.node.akm3] run function animated_java:global/gu/get_entity_uuid_string
+data modify entity @s data.uuids append from storage animated_java:gu out
+data modify entity @s data.uuids_by_name.bone_akm3 set from storage animated_java:gu out
 execute on vehicle on passengers if entity @s[tag=aj.akm.node.muzzleflash] run function animated_java:global/gu/get_entity_uuid_string
 data modify entity @s data.uuids append from storage animated_java:gu out
 data modify entity @s data.uuids_by_name.bone_muzzleflash set from storage animated_java:gu out

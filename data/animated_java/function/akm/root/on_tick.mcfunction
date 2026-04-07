@@ -3,6 +3,7 @@ execute unless entity @s[tag=aj.akm.root] run return 0
 execute if entity @s[tag=aj.akm.animation.equip.playing] run function animated_java:akm/animations/equip/zzz/on_tick
 execute if entity @s[tag=aj.akm.animation.shoot.playing] run function animated_java:akm/animations/shoot/zzz/on_tick
 execute if entity @s[tag=aj.akm.animation.reload.playing] run function animated_java:akm/animations/reload/zzz/on_tick
+execute if entity @s[tag=aj.akm.animation.reload2.playing] run function animated_java:akm/animations/reload2/zzz/on_tick
 execute if entity @s[tag=aj.akm.animation.run.playing] run function animated_java:akm/animations/run/zzz/on_tick
 execute if entity @s[tag=aj.akm.animation.use.playing] run function animated_java:akm/animations/use/zzz/on_tick
 execute if entity @s[tag=aj.akm.animation.wall.playing] run function animated_java:akm/animations/wall/zzz/on_tick

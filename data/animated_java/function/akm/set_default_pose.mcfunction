@@ -4,11 +4,14 @@ function animated_java:akm/zzz/reset_floating_entities
 execute on passengers if entity @s[tag=aj.akm.node.magazine] run data merge entity @s { transformation: [-1f,0f,0f,-0.2375f,0f,0f,1f,-0.7506f,0f,1f,0f,-0.1745f,0f,0f,0f,1f], start_interpolation: -1 }
 execute on passengers if entity @s[tag=aj.akm.node.chamber] run data merge entity @s { transformation: [-1f,0f,0f,-0.2375f,0f,0f,1f,-0.9381f,0f,1f,0f,-0.1354f,0f,0f,0f,1f], start_interpolation: -1 }
 execute on passengers if entity @s[tag=aj.akm.node.akm1] run data merge entity @s { transformation: [-1f,0f,0f,-0.2375f,0f,0f,1f,-0.9381f,0f,1f,0f,-0.1354f,0f,0f,0f,1f], start_interpolation: -1 }
+execute on passengers if entity @s[tag=aj.akm.node.magazine2] run data merge entity @s { transformation: [-1f,0f,0f,-0.2375f,0f,-0.4848f,0.8746f,-0.6896f,0f,0.8746f,0.4848f,-0.1604f,0f,0f,0f,1f], start_interpolation: -1 }
 execute on passengers if entity @s[tag=aj.akm.node.right_arm] run data merge entity @s { transformation: [-1f,0f,0f,-0.25f,0f,1f,0f,-0.3437f,0f,0f,-1f,-0.2187f,0f,0f,0f,1f], start_interpolation: -1 }
 execute on passengers if entity @s[tag=aj.akm.node.right] run data merge entity @s { transformation: [-1f,0f,0f,-0.1562f,0f,1f,0f,-0.75f,0f,0f,-1f,-0.1875f,0f,0f,0f,1f], start_interpolation: -1 }
-execute on passengers if entity @s[tag=aj.akm.node.magazine2] run data merge entity @s { transformation: [-1f,0f,0f,0.1063f,0f,-0.4848f,0.8746f,-0.6896f,0f,0.8746f,0.4848f,-0.1604f,0f,0f,0f,1f], start_interpolation: -1 }
 execute on passengers if entity @s[tag=aj.akm.node.forearm] run data merge entity @s { transformation: [-1f,0f,0f,0.1375f,0f,1f,0f,-0.375f,0f,0f,-1f,-0.2187f,0f,0f,0f,1f], start_interpolation: -1 }
 execute on passengers if entity @s[tag=aj.akm.node.bicep] run data merge entity @s { transformation: [-1f,0f,0f,0.1438f,0f,1f,0f,0.0313f,0f,0f,-1f,-0.2187f,0f,0f,0f,1f], start_interpolation: -1 }
+execute on passengers if entity @s[tag=aj.akm.node.magazine1] run data merge entity @s { transformation: [-1f,0f,0f,0.1375f,0f,0f,1f,-0.7506f,0f,1f,0f,-0.1745f,0f,0f,0f,1f], start_interpolation: -1 }
+execute on passengers if entity @s[tag=aj.akm.node.chamber1] run data merge entity @s { transformation: [-1f,0f,0f,0.1375f,0f,0f,1f,-0.9381f,0f,1f,0f,-0.1354f,0f,0f,0f,1f], start_interpolation: -1 }
+execute on passengers if entity @s[tag=aj.akm.node.akm3] run data merge entity @s { transformation: [-1f,0f,0f,0.1375f,0f,0f,1f,-0.9381f,0f,1f,0f,-0.1354f,0f,0f,0f,1f], start_interpolation: -1 }
 execute on passengers if entity @s[tag=aj.akm.node.left_arm] run data merge entity @s { transformation: [-1f,0f,0f,0.1406f,0f,1f,0f,-0.3437f,0f,0f,-1f,-0.2187f,0f,0f,0f,1f], start_interpolation: -1 }
 execute on passengers if entity @s[tag=aj.akm.node._] run data merge entity @s { transformation: [-1f,0f,0f,-0.0312f,0f,1f,0f,-0.375f,0f,0f,-1f,-0.2187f,0f,0f,0f,1f], start_interpolation: -1 }
 execute on passengers if entity @s[tag=aj.akm.node.muzzleflash] run data merge entity @s { transformation: [-0.999f,-0.0436f,0f,-0.2031f,-0.0436f,0.999f,0f,-0.7703f,0f,0f,-1f,0.4f,0f,0f,0f,1f], start_interpolation: -1 }

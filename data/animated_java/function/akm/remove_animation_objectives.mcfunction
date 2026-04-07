@@ -2,6 +2,7 @@
 scoreboard objectives remove aj.equip.frame
 scoreboard objectives remove aj.shoot.frame
 scoreboard objectives remove aj.reload.frame
+scoreboard objectives remove aj.reload2.frame
 scoreboard objectives remove aj.run.frame
 scoreboard objectives remove aj.use.frame
 scoreboard objectives remove aj.wall.frame
