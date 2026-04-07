@@ -5,4 +5,4 @@ $data merge entity $(bone_akm1) {transformation: [-0.8335f,-0.5489f,-0.0639f,-0.
 $data merge entity $(bone_right_arm) {transformation: [-0.8335f,-0.0639f,0.5489f,-0.25f,-0.5468f,-0.0476f,-0.8359f,-0.5411f,0.0796f,-0.9968f,0.0047f,-0.3109f,0f,0f,0f,1f],start_interpolation: 0,interpolation_duration: 2}
 $data merge entity $(bone_magazine2) {transformation: [-0.6382f,-0.5907f,-0.4937f,0.1633f,-0.7695f,0.5093f,0.3854f,-0.8443f,0.0238f,0.6259f,-0.7795f,0.2005f,0f,0f,0f,1f],start_interpolation: 0,interpolation_duration: 2}
 $data merge entity $(bone_forearm) {transformation: [-0.7365f,-0.2667f,0.6217f,0.0744f,-0.6572f,0.4997f,-0.5642f,-0.7034f,-0.1602f,-0.8241f,-0.5433f,-0.0974f,0f,0f,0f,1f],start_interpolation: 0,interpolation_duration: 2}
-data modify entity @s data merge value {"cameras":{},"locators":{"akm":{"px":-0.23756257904962066,"py":-0.3816956279055125,"pz":0.75764123676307,"ry":356.3294787021375,"rx":-2.7279432802063877}}}
+data modify entity @s data merge value {"cameras":{},"locators":{"akm":{"px":-0.2375625790496206,"py":-0.3816956279055126,"pz":0.75764123676307,"ry":356.3294787021375,"rx":-2.7279432802063877}}}
