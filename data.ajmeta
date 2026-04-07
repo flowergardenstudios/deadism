@@ -415,6 +415,7 @@
 				"data/animated_java/function/chrome_shotgun/animations/reload_start/tween.mcfunction",
 				"data/animated_java/function/chrome_shotgun/animations/reload_start/zzz/apply_frame.mcfunction",
 				"data/animated_java/function/chrome_shotgun/animations/reload_start/zzz/frames/0.mcfunction",
+				"data/animated_java/function/chrome_shotgun/animations/reload_start/zzz/frames/0_locator_barrel.mcfunction",
 				"data/animated_java/function/chrome_shotgun/animations/reload_start/zzz/frames/0_root_function.mcfunction",
 				"data/animated_java/function/chrome_shotgun/animations/reload_start/zzz/frames/1.mcfunction",
 				"data/animated_java/function/chrome_shotgun/animations/reload_start/zzz/frames/2.mcfunction",
