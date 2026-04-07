@@ -1,2 +1,0 @@
-execute unless score @s lsp.stamina = stamina lsp.Values run scoreboard players operation @s lsp.stamina += sprint.stamina.restoration lsp.Values
-function lsp:change_speed with storage lsp:macro stamina
