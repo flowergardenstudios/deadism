@@ -1,3 +1,5 @@
+return fail
+
 execute if block ~ ~ ~ #deadism:weapons/air run return fail
 scoreboard players operation #ID deadism.player.ID = @s deadism.player.ID
 

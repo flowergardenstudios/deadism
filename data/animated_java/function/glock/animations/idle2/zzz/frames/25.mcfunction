@@ -9,3 +9,4 @@ $data merge entity $(bone_right_arm) {transformation: [-0.9962f,-0.0009f,-0.0876
 $data merge entity $(bone_magazine1) {transformation: [0f,0f,0f,-0.114f,0f,0f,0f,-0.3642f,0f,0f,0f,0.3686f,0f,0f,0f,1f],start_interpolation: 0,interpolation_duration: 0}
 $data merge entity $(bone_left_arm) {transformation: [-0.8344f,0.402f,0.377f,0.0844f,-0.3969f,0.0361f,-0.9171f,-0.4562f,-0.3824f,-0.9149f,0.1294f,0.0312f,0f,0f,0f,1f],start_interpolation: 0,interpolation_duration: 0}
 data modify entity @s data merge value {"cameras":{},"locators":{"barrel1":{"px":-0.07189698424185156,"py":-0.3473147679153328,"pz":0.7056202124957758,"ry":359.946406688955,"rx":-0.34720714881170406}}}
+execute on vehicle unless entity @s[tag=aj.transforms_only] at @s run function animated_java:glock/animations/idle2/zzz/frames/25_root_function
