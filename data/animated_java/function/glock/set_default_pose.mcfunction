@@ -14,4 +14,4 @@ execute on passengers if entity @s[tag=aj.glock.node.magazine1] run data merge e
 execute on passengers if entity @s[tag=aj.glock.node.left_arm] run data merge entity @s { transformation: [-1f,0f,0f,0.1719f,0f,1f,0f,-0.4125f,0f,0f,-1f,0.175f,0f,0f,0f,1f], start_interpolation: -1 }
 execute on passengers if entity @s[tag=aj.glock.node.torso] run data merge entity @s { transformation: [-1f,0f,0f,0f,0f,1f,0f,-0.4437f,0f,0f,-1f,0.175f,0f,0f,0f,1f], start_interpolation: -1 }
 execute on passengers if entity @s[tag=aj.glock.node.camera] run data merge entity @s { transformation: [-1f,0f,0f,0f,0f,1f,0f,-0.4437f,0f,0f,-1f,0.175f,0f,0f,0f,1f], start_interpolation: -1 }
-execute on passengers if entity @s[tag=aj.glock.node.main] run data merge entity @s { transformation: [-1f,0f,0f,-0.2031f,0f,1f,0f,-0.7703f,0f,0f,-1f,0.4f,0f,0f,0f,1f], start_interpolation: -1 }
+execute on passengers if entity @s[tag=aj.glock.node.main] run data merge entity @s { transformation: [-1f,0f,0f,-0.0344f,0f,1f,0f,-0.2703f,0f,0f,-1f,0.025f,0f,0f,0f,1f], start_interpolation: -1 }
