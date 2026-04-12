@@ -2,3 +2,4 @@
 execute on vehicle run tag @s remove deadism.weapon.cooldown
 execute on vehicle run tag @s remove deadism.weapon.recoil.fixRotation
 execute on vehicle run tag @s remove deadism.IsSprinting
+execute on vehicle run tag @s remove deadism.IsWalking
