@@ -1,4 +1,5 @@
 execute as @a run attribute @s attack_damage base set 0
+execute as @a run attribute @s entity_interaction_range base reset
 
 function deadism:zprivate/player/tick
 #function deadism:zprivate/traps/main

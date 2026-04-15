@@ -1,3 +1,4 @@
+execute on vehicle if entity @s[tag=deadism.WalkDelay] run return fail
 execute on vehicle if entity @s[tag=deadism.IsSprinting] run return fail
 execute on vehicle if entity @s[tag=deadism.weapon.cooldown] run return fail
 execute on vehicle if entity @s[tag=deadism.weapon.reloading] run return fail
