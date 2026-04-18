@@ -1,4 +1,3 @@
-
 scoreboard players operation #ID deadism.weapon.ID = @s deadism.weapon.ID
 execute unless entity @p[predicate=deadism:id/weapons/id] on passengers run kill @s
 execute unless entity @p[predicate=deadism:id/weapons/id] run return run kill @s
@@ -8,7 +7,6 @@ execute unless entity @p[predicate=deadism:id/weapons/id] run return run kill @s
 #ride @s mount @p[predicate=deadism:id/weapons/id]
 #execute rotated as @p[predicate=deadism:id/weapons/id] run rotate @s ~ ~
 #return fail
-
 execute rotated as @p[predicate=deadism:id/weapons/id] run rotate @s ~ ~
 ride @s mount @p[predicate=deadism:id/weapons/id,predicate=!deadism:has_passengers]
 

@@ -1,4 +1,5 @@
 execute as @s[tag=deadism.weapon.reloading] run return fail
+execute as @s[tag=deadism.weapon.cooldown] run return fail
 execute if score @s deadism.weapon.AMMO.IN_GUN = GLOCKAmmo deadism.weapon.AMMO run return fail
 scoreboard players operation #ID deadism.weapon.ID = @s deadism.weapon.ID
 

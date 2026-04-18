@@ -8,5 +8,8 @@ execute anchored eyes positioned ^ ^ ^ run function deadism:zprivate/weapons/rif
 
 execute on passengers as @s[tag=deadism.weapon,predicate=deadism:id/weapons/id] run function animated_java:akm/animations/shoot/pause
 execute on passengers as @s[tag=deadism.weapon,predicate=deadism:id/weapons/id] run function animated_java:akm/animations/shoot/play
-title @s actionbar [{"score":{name:"@s", "objective":"deadism.weapon.AMMO.IN_GUN"}, "font":"deadism:f25bankprinter"}, "/", {"score":{"name":"@s", objective:"deadism.weapon.AMMO.RELOADABLE_AMOUNT"}}]
+# title @s actionbar [{"score":{name:"@s", "objective":"deadism.weapon.AMMO.IN_GUN"}, "font":"deadism:f25bankprinter"}, "/", {"score":{"name":"@s", objective:"deadism.weapon.AMMO.RELOADABLE_AMOUNT"}}]
 
+
+# // Recoil
+execute at @s rotated as @s run tp @s ~ ~ ~ ~ ~-3.8

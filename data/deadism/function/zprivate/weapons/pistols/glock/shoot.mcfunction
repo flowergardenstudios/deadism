@@ -24,3 +24,5 @@ execute if score #RANDOM_SWAY deadism.CONFIG matches 5 if score @s deadism.weapo
 
 #title @s actionbar [{"score":{name:"@s", "objective":"deadism.weapon.AMMO.IN_GUN"}, "font":"deadism:f25bankprinter"}, "/", {"score":{"name":"@s", objective:"deadism.weapon.AMMO.RELOADABLE_AMOUNT"}}]
 
+# // Recoil
+execute at @s rotated as @s run tp @s ~ ~ ~ ~ ~-3.4

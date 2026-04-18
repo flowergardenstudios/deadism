@@ -11,3 +11,5 @@ execute anchored eyes rotated ~-1 ~-1 positioned ^ ^ ^0.1 run function deadism:z
 
 execute on passengers as @s[tag=deadism.weapon] run function animated_java:chrome_shotgun/animations/shoot/play
 
+# // Recoil
+execute at @s rotated as @s run tp @s ~ ~ ~ ~ ~-7.8
